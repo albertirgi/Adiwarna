@@ -5,6 +5,8 @@
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     @vite('resources/css/app.css')
+    @vite('resources/js/app.js')
+    @vite('resources/js/video.js')
 </head>
 
 <body>
@@ -54,6 +56,9 @@
             </div>
         </div>
     </nav>
+    <video id="fullscreenVideo" class="visible" src="/assets/loading.mp4" type="video/mp4" autoplay muted
+        playsinline></video>
+    <img id="gifOverlay" class="gif-overlay" src="{{ asset('/assets/kelana-motion.gif') }}" alt="gif">
     <div class="h-screen bg-white box-border">
         <!-- Content for first section -->
     </div>
@@ -65,7 +70,6 @@
     <div class="h-[200vh] bg-red-500 box-border" style="background-image: url('{{ asset('assets/svg/bg-2.svg') }}'); background-size: cover; background-position: center;">
         <!-- Content for third section -->
     </div>
-
 </body>
 
 </html>
