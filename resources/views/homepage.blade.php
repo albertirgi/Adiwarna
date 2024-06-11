@@ -54,23 +54,18 @@
             </div>
         </div>
     </nav>
+    <div class="h-screen bg-white box-border">
+        <!-- Content for first section -->
+    </div>
+    
+    <div class="h-screen bg-blue box-border" style="background-image: url('{{ asset('assets/svg/bg-1.svg') }}'); background-size: cover; background-position: center;">
+        <!-- Content for first section -->
+    </div>
+    
+    <div class="h-[200vh] bg-red-500 box-border" style="background-image: url('{{ asset('assets/svg/bg-2.svg') }}'); background-size: cover; background-position: center;">
+        <!-- Content for third section -->
+    </div>
+
 </body>
-<script>
-    // const mobileMenuButton = document.querySelector('[aria-controls="mobile-menu"]');
-    // const mobileMenu = document.getElementById('mobile-menu');
-    // mobileMenuButton.addEventListener('click', () => {
-    //     mobileMenu.classList.toggle('hidden');
-    // });
-    document.querySelector('button').addEventListener('click', function() {
-    var menuIcon = this.querySelector('.block');
-    var closeIcon = this.querySelector('.hidden');
-
-    menuIcon.classList.toggle('hidden');
-    menuIcon.classList.toggle('block');
-
-    closeIcon.classList.toggle('hidden');
-    closeIcon.classList.toggle('block');
-});     
-</script>
 
 </html>
