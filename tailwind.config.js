@@ -5,7 +5,11 @@ export default {
     "./resources/views/**/*.js",
   ],
   theme: {
-    extend: {},
+    extend: {
+      colors: {
+        'custom-gray': '#504c4c',
+      },
+    },
   },
   plugins: [],
 }
