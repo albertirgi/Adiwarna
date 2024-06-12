@@ -1,3 +1,3 @@
 import './bootstrap';
-import '../css/video.css';
+import '../css/style.css';
 import './video'
