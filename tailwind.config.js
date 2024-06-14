@@ -22,6 +22,9 @@ export default {
                 1: "url('bg-1.svg')",
                 2: "url('bg-2.svg')",
             },
+            height: {
+              '2screen': '200vh', // Custom utility for 200vh
+            }
         },
     },
     plugins: [],

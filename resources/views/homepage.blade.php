@@ -111,7 +111,7 @@
     </div>
 
     {{-- SECTION 2 --}}
-    <div id="section2" class="bg-2 relative w-full h-screen bg-no-repeat bg-cover">
+    <div id="section2" class="bg-2 h-2screen relative w-full h-screen bg-no-repeat bg-cover">
     </div>
 </body>
 
