@@ -2,8 +2,25 @@
 @tailwind components;
 @tailwind utilities;
 
+html {
+    scroll-behavior: smooth;
+  }
+
 /* STOP STICKY NAVBAR */
 .stop-nav {
     bottom: auto;
     top: auto;
 }
+
+/* CUSTOM SCROLLBAR */
+body::-webkit-scrollbar {
+    width: 0.5em;
+}
+body::-webkit-scrollbar-track {
+    background: black;
+}
+body::-webkit-scrollbar-thumb {
+    background-color: #888;
+    border-radius: 2px;
+}
+
