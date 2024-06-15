@@ -32,6 +32,11 @@ export default {
               '2screen': '200vh',
               'footer': '39vh',
             },
+            width: {
+              'custom-earth': '50vw',
+              'custom-earth-2': '54vw',
+              'footer': '39vh',
+            },
             animation: {
               spin: 'spin 20s linear infinite',
               moveBackground: 'moveBackground 2s linear infinite',

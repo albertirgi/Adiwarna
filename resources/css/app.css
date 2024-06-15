@@ -2,9 +2,12 @@
 @tailwind components;
 @tailwind utilities;
 
-html {
+/* PREVENT OVERSCROLL */
+html,
+body {
+    overscroll-behavior: none;
     scroll-behavior: smooth;
-  }
+}
 
 /* STOP STICKY NAVBAR */
 .stop-nav {
@@ -12,15 +15,17 @@ html {
     top: auto;
 }
 
-/* CUSTOM SCROLLBAR */
+/* REMOVE SCROLLBAR INDICATOR */
 body::-webkit-scrollbar {
-    width: 0.5em;
-}
-body::-webkit-scrollbar-track {
-    background: black;
-}
-body::-webkit-scrollbar-thumb {
-    background-color: #888;
-    border-radius: 2px;
+    -ms-overflow-style: none;
+    scrollbar-width: none;
+    display: none;
 }
 
+.snap-y {
+    scroll-snap-type: y mandatory;
+}
+
+.snap-mandatory > * {
+    scroll-snap-align: start;
+}
