@@ -21,11 +21,3 @@ body::-webkit-scrollbar {
     scrollbar-width: none;
     display: none;
 }
-
-.snap-y {
-    scroll-snap-type: y mandatory;
-}
-
-.snap-mandatory > * {
-    scroll-snap-align: start;
-}

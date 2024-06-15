@@ -22,24 +22,6 @@ document.addEventListener("DOMContentLoaded", () => {
             }
         });
     } else {
-        console.error('Navbar or mainVideo element not found');
+        console.error("Navbar or mainVideo element not found");
     }
 });
-
-document.addEventListener("DOMContentLoaded", function () {
-    const loadingVideo = document.getElementById("loadingVideo");
-    const kelanaMotion = document.getElementById("kelanaMotion");
-    const body = document.body;
-
-    loadingVideo.onended = function () {
-        setTimeout(function () {
-            loadingVideo.style.opacity = '0';
-            kelanaMotion.style.display = 'block';
-            body.classList.remove('overflow-hidden');
-            setTimeout(function () {
-                loadingVideo.style.zIndex = '-21';
-            }, 500); // match the transition duration
-        }, 0);
-    };
-});
-
