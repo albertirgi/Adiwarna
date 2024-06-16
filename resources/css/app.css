@@ -6,7 +6,6 @@
 html,
 body {
     overscroll-behavior: none;
-    scroll-behavior: smooth;
 }
 
 /* STOP STICKY NAVBAR */
@@ -21,3 +20,11 @@ body::-webkit-scrollbar {
     scrollbar-width: none;
     display: none;
 }
+/* #mainContent::-webkit-scrollbar {
+    display: none;
+}
+#mainContent {
+    scrollbar-width: none;
+    -ms-overflow-style: none;
+} */
+

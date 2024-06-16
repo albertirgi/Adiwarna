@@ -19,14 +19,24 @@
 </head>
 
 <body class="bg-black">
-    <!-- Loading Screen -->
+    {{-- LOADING SCREEN --}}
     <video id="loadingVideo"
         class="w-full h-screen object-cover absolute z-50 opacity-100 transition-opacity duration-500"
         src="{{ asset('/assets/videos/loading.mp4') }}" autoplay muted></video>
 
+    {{-- MAIN VIDEO --}}
+    <section id="main-video" class="hidden relative">
+        <video id="mainVideo" class="w-full h-screen object-cover" src="{{ asset('/assets/videos/main_video.mp4') }}"
+            type="video/mp4" autoplay muted loop></video>
+        <img id="kelanaMotion"
+            class="absolute top-1/2 left-1/2 transform -translate-x-1/2 -translate-y-1/2 w-full h-screen"
+            src="{{ asset('/assets/videos/kelana-motion.gif') }}" alt="gif">
+    </section>
+
+    {{-- MAIN CONTENT --}}
     <div id="mainContent" class="hidden">
         {{-- NAVBAR --}}
-        <nav id="navbar" class="bg-custom-gray fixed top-0 z-30 w-full">
+        <nav id="navbar" class="bg-custom-gray fixed top-0 z-30 w-full opacity-0 transition-opacity duration-1000">
             <div class="px-16">
                 <div class="relative">
                     <div class="flex flex-1 items-center justify-between">
@@ -68,19 +78,8 @@
             </div>
         </nav>
 
-        {{-- MAIN VIDEO --}}
-        <section id="main-video">
-            <div class="relative">
-                <video id="mainVideo" class="relative w-full h-screen object-cover"
-                    src="{{ asset('/assets/videos/main_video.mp4') }}" type="video/mp4" autoplay muted loop></video>
-                <img id="kelanaMotion"
-                    class="absolute top-1/2 left-1/2 transform -translate-x-1/2 -translate-y-1/2 w-full"
-                    src="{{ asset('/assets/videos/kelana-motion.gif') }}" alt="gif">
-            </div>
-        </section>
-
         {{-- SECTION 1 --}}
-        <section id="section1" class="bg-1 relative w-full h-screen bg-no-repeat bg-cover">
+        <section id="section1" class="bg-1 relative w-full h-screen bg-no-repeat bg-cover snap-start">
             <div class="flex relative flex-col w-full max-w-[1065px] justify-center mx-auto" style="padding-top: 115px">
                 <h1 class="text-custom-white font-jakarta-sans text-13xl font-bold">tentang</h1>
 
@@ -124,7 +123,7 @@
         </section>
 
         {{-- SECTION 2 --}}
-        <section id="section2" class="bg-2 h-2screen relative w-full bg-no-repeat bg-cover">
+        <section id="section2" class="bg-2 h-2screen relative w-full bg-no-repeat bg-cover snap-start">
         </section>
 
         {{-- SECTION 3 --}}
