@@ -18,13 +18,13 @@
     @vite('resources/js/app.js')
 </head>
 
-<body class="bg-black relative overflow-hidden">
+<body class="bg-black">
     <!-- Loading Screen -->
     <video id="loadingVideo"
         class="w-full h-screen object-cover absolute z-50 opacity-100 transition-opacity duration-500"
         src="{{ asset('/assets/videos/loading.mp4') }}" autoplay muted></video>
 
-    <div id="mainContent">
+    <div id="mainContent" class="hidden">
         {{-- NAVBAR --}}
         <nav id="navbar" class="bg-custom-gray fixed top-0 z-30 w-full">
             <div class="px-16">
@@ -74,7 +74,7 @@
                 <video id="mainVideo" class="relative w-full h-screen object-cover"
                     src="{{ asset('/assets/videos/main_video.mp4') }}" type="video/mp4" autoplay muted loop></video>
                 <img id="kelanaMotion"
-                    class="hidden absolute top-1/2 left-1/2 transform -translate-x-1/2 -translate-y-1/2 w-full"
+                    class="absolute top-1/2 left-1/2 transform -translate-x-1/2 -translate-y-1/2 w-full"
                     src="{{ asset('/assets/videos/kelana-motion.gif') }}" alt="gif">
             </div>
         </section>
@@ -284,7 +284,7 @@
         </section>
 
         {{-- FOOTER --}}
-        <section id="footer" class="relative bg-black w-[90%] flex flex-col ml-5 w-[85%] h-footer">
+        <section id="footer" class="relative bg-black flex flex-col w-full h-footer">
             <div class="flex gap-5">
                 <aside class="flex flex-col mt-16 ml-44">
                     <div class="flex grow gap-2">
@@ -304,7 +304,7 @@
                     </div>
                 </aside>
                 <section class="flex flex-col ml-5 w-full">
-                    <div class="flex grow gap-5 justify-between mt-28 text-xs text-custom-white">
+                    <div class="flex grow gap-5 justify-between mt-[120px] text-xs text-custom-white">
                         <div class="mt-[108px] font-jakarta-sans">
                             <p class="italic">©2024 Adiwarna Kelana</p>
                             <p class="mt-2">
@@ -317,7 +317,7 @@
                                 Universitas Kristen Petra Surabaya
                             </p>
                         </div>
-                        <div class="flex flex-col mt-24 font-jakarta-sans mr-10">
+                        <div class="flex flex-col mt-24 font-jakarta-sans mr-44">
                             <div class="flex items-center justify-end gap-5">
                                 <p class="italic">@adiwarna.pcu</p>
                                 <img loading="lazy" src="{{ asset('/assets/images/logo-ig.svg') }}"

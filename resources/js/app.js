@@ -29,14 +29,14 @@ document.addEventListener("DOMContentLoaded", () => {
 // LOADING VIDEO LOGIC
 document.addEventListener("DOMContentLoaded", function () {
     const loadingVideo = document.getElementById("loadingVideo");
+    const mainContent = document.getElementById("mainContent");
     const kelanaMotion = document.getElementById("kelanaMotion");
     const body = document.body;
 
     loadingVideo.onended = function () {
         setTimeout(function () {
             loadingVideo.style.opacity = '0';
-            kelanaMotion.style.display = 'block';
-            body.classList.remove('overflow-hidden');
+            mainContent.classList.remove('hidden');
             setTimeout(function () {
                 loadingVideo.style.zIndex = '-21';
             }, 500);
