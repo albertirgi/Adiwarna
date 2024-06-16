@@ -21,7 +21,7 @@ document.addEventListener("DOMContentLoaded", () => {
                 navbar.style.top = "0";
             }
         });
-    }, 3200);
+    }, 7200);
 });
 
 // LOADING VIDEO LOGIC
