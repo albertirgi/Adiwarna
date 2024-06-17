@@ -21,10 +21,12 @@ export default {
                 "12xl": "80px",
                 "13xl": "115px",
                 "14xl": "155px",
+                "15xl": "104px",
             },
             backgroundImage: {
                 1: "url('bg-1.svg')",
-                2: "url('bg-2.svg')",
+                '2-1': "url('bg-2-1.svg')",
+                '2-2': "url('bg-2-2.svg')",
                 3: "url('bg-3.svg')",
                 5: "url('bg-5.svg')",
             },

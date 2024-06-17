@@ -28,8 +28,7 @@
     <section id="main-video" class="hidden relative">
         <video id="mainVideo" class="w-full h-screen object-cover" src="{{ asset('/assets/videos/main_video.mp4') }}"
             type="video/mp4" autoplay muted loop></video>
-        <img id="kelanaMotion"
-            class="absolute top-1/2 left-1/2 transform -translate-x-1/2 -translate-y-1/2 w-full h-screen"
+        <img id="kelanaMotion" class="absolute top-1/2 left-1/2 transform -translate-x-1/2 -translate-y-1/2  h-screen"
             src="{{ asset('/assets/videos/kelana-motion.gif') }}" alt="gif">
     </section>
 
@@ -123,7 +122,101 @@
         </section>
 
         {{-- SECTION 2 --}}
-        <section id="section2" class="bg-2 h-2screen relative w-full bg-no-repeat bg-cover snap-start">
+        <section id="section2-1" class="bg-2-1  h-screen relative w-full bg-no-repeat bg-contain bg-center snap-start">
+            <div class="flex flex-row justify-end pt-40">
+                <div class="basis-7/12 flex justify-end">
+                    <h1 class="text-custom-white font-jakarta-sans text-6xl font-bold pr-20">timeline</h1>
+
+                </div>
+                <div class="basis-5/12 flex justify-start">
+                    <div class="flex flex-row">
+                        <div class="basis-1/4 flex">
+                            <div class="flex flex-col items-center justify-center pt-10">
+                                <img src="{{ asset('assets/images/logo-kelana-only.svg') }}" />
+                                {{-- make white vertical line --}}
+                                <div class="w-1 h-full bg-custom-white mt-2"></div>
+                            </div>
+                        </div>
+                        <div class="basis-4/4 flex">
+                            <div class="flex flex-col pt-3">
+                                <h1 class="text-custom-white font-jakarta-sans text-3xl mb-16">pre-kelana</h1>
+                                <h1 class="text-custom-white font-jakarta-sans text-3xl mb-16">roadshow</h1>
+                                <h1 class="text-custom-white font-jakarta-sans text-3xl mb-16">kelana ke kafe</h1>
+                                <h1 class="text-custom-white font-jakarta-sans text-3xl mb-16">workshop</h1>
+                                <h1 class="text-custom-white font-jakarta-sans text-3xl mb-16">talkshow</h1>
+                                <h1 class="text-custom-white font-jakarta-sans text-3xl">exhibition</h1>
+                            </div>
+                        </div>
+                    </div>
+
+                </div>
+            </div>
+        </section>
+
+        <section id="section2-2" class="bg-2-2 h-screen relative w-full bg-no-repeat bg-contain bg-center snap-start">
+            <div class="flex flex-col justify-end pt-8">
+                <div class="w-full h-16 bg-[#FA0202] border-y-4 border-y-white marquee-container">
+                    <!-- Content for the banner -->
+                    <div class="flex flex-row items-center h-full justify-evenly marquee-content">
+                        <h1 class="text-custom-white font-jakarta-sans text-2xl font-bold">upcoming <span
+                                class="text-custom-white font-jakarta-sans text-2xl font-normal italic">event</span>
+                        </h1>
+                        <img src="{{ asset('assets/images/logo-kelana-only.svg') }}" />
+                        <h1 class="text-custom-white font-caslon-text text-2xl font-normal italic">upcoming <span
+                                class="text-custom-white font-jakarta-sans text-2xl font-normal">event</span>
+                        </h1>
+                        <img src="{{ asset('assets/images/logo-kelana-only.svg') }}" />
+
+                        <h1 class="text-custom-white font-jakarta-sans text-2xl font-bold">upcoming <span
+                                class="text-custom-white font-caslon-text text-2xl font-normal italic">event</span>
+                        </h1>
+                        <img src="{{ asset('assets/images/logo-kelana-only.svg') }}" />
+                        <h1 class="text-custom-white font-jakarta-sans text-2xl font-bold">upcoming <span
+                                class="text-custom-white font-jakarta-sans text-2xl font-normal italic">event</span>
+                        </h1>
+                        <img src="{{ asset('assets/images/logo-kelana-only.svg') }}" />
+                        <h1 class="text-custom-white font-caslon-text text-2xl font-normal italic">upcoming <span
+                                class="text-custom-white font-jakarta-sans text-2xl font-normal">event</span>
+                        </h1>
+                        <img src="{{ asset('assets/images/logo-kelana-only.svg') }}" />
+
+                        <h1 class="text-custom-white font-jakarta-sans text-2xl font-bold">upcoming <span
+                                class="text-custom-white font-caslon-text text-2xl font-normal italic">event</span>
+                        </h1>
+                        <img src="{{ asset('assets/images/logo-kelana-only.svg') }}" />
+                    </div>
+                </div>
+
+                <div class="flex flex-col px-64 pt-12">
+                    <h1 class="text-custom-white font-jakarta-sans text-6xl font-bold">upcoming <span
+                            class="text-custom-white font-caslon-text text-6xl font-normal italic">event</span>
+                        
+                    </h1>
+                    <div class="flex flex-row pt-12 justify-between">
+                        <div class="w-[23rem]">
+                            <div class="flex flex-col">
+                                <div class="size-[23rem] bg-custom-gray"></div>
+                                <h1 class="text-custom-white font-jakarta-sans text-4xl font-bold mt-8">nama event<h1>
+                                <p class="text-custom-white font-jakarta-sans text-sm">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed mattis varius</p>
+                            </div>
+                        </div>
+                        <div class="w-[23rem]">
+                            <div class="flex flex-col">
+                                <div class="size-[23rem] bg-custom-gray"></div>
+                                <h1 class="text-custom-white font-jakarta-sans text-4xl font-bold mt-8">nama event<h1>
+                                <p class="text-custom-white font-jakarta-sans text-sm">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed mattis varius</p>
+                            </div>
+                        </div>
+                        <div class="w-[23rem]">
+                            <div class="flex flex-col">
+                                <div class="size-[23rem] bg-custom-gray"></div>
+                                <h1 class="text-custom-white font-jakarta-sans text-4xl font-bold mt-8">nama event<h1>
+                                <p class="text-custom-white font-jakarta-sans text-sm">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed mattis varius</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
         </section>
 
         {{-- SECTION 3 --}}
