@@ -1,0 +1,94 @@
+import LogoAdiwarna from "../../assets/images/logo-adiwarna.svg";
+
+const Navbar = () => {
+  return (
+    <div>
+      <nav
+        id="navbar"
+        className="bg-custom-gray fixed top-0 z-30 w-full opacity-0 transition-opacity duration-1000"
+      >
+        <div className="px-16">
+          <div className="relative">
+            <div className="flex flex-1 items-center justify-between">
+              <div className="flex flex-shrink-0 items-center">
+                <img
+                  className="h-8 w-auto hover:scale-110 hover:cursor-pointer transition-transform duration-300 ease-in-out"
+                  src={LogoAdiwarna}
+                  alt="Your Company"
+                />
+              </div>
+              <div className="hidden lg:ml-6 lg:block">
+                <div className="flex space-x-16">
+                  <a
+                    href="#"
+                    className="rounded-md p-1 text-base font-bold text-white hover:text-white hover:scale-110 hover:cursor-pointer transition-transform duration-300 ease-in-out"
+                    aria-current="page"
+                  >
+                    HOME
+                  </a>
+                  <a
+                    href="#"
+                    className="rounded-md p-1 text-base font-bold text-gray-300 hover:text-white hover:scale-110 hover:cursor-pointer transition-transform duration-300 ease-in-out"
+                  >
+                    CURATED WORKS
+                  </a>
+                  <a
+                    href="#"
+                    className="rounded-md p-1 text-base font-bold text-gray-300 hover:text-white hover:scale-110 hover:cursor-pointer transition-transform duration-300 ease-in-out"
+                  >
+                    VOTE
+                  </a>
+                  <a
+                    href="#"
+                    className="rounded-md p-1 text-base font-bold text-gray-300 hover:text-white hover:scale-110 hover:cursor-pointer transition-transform duration-300 ease-in-out"
+                  >
+                    WINNER
+                  </a>
+                </div>
+              </div>
+              <div>
+                <button
+                  type="button"
+                  className="relative inline-flex items-center justify-center rounded-md p-2 text-white hover:text-white hover:scale-110 hover:cursor-pointer transition-transform duration-300 ease-in-out"
+                  aria-controls="menu-dropdown"
+                  aria-expanded="false"
+                >
+                  <svg
+                    className="block h-12 w-12"
+                    fill="none"
+                    viewBox="0 0 24 24"
+                    strokeWidth="2"
+                    stroke="currentColor"
+                    aria-hidden="true"
+                  >
+                    <path
+                      strokeLinecap="round"
+                      strokeLinejoin="round"
+                      d="M3.75 6.75h16.5M3.75 12h16.5m-16.5 5.25h16.5"
+                    />
+                  </svg>
+                  <svg
+                    className="hidden h-12 w-12"
+                    fill="none"
+                    viewBox="0 0 24 24"
+                    strokeWidth="2"
+                    stroke="currentColor"
+                    aria-hidden="true"
+                  >
+                    <path
+                      strokeLinecap="round"
+                      strokeLinejoin="round"
+                      d="M6 18L18 6M6 6l12 12"
+                    />
+                  </svg>
+                </button>
+              </div>
+            </div>
+          </div>
+        </div>
+      </nav>
+    </div>
+  );
+};
+
+export default Navbar;

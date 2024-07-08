@@ -1,0 +1,30 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+/* PREVENT OVERSCROLL */
+html,
+body {
+    overscroll-behavior: none;
+}
+
+/* STOP STICKY NAVBAR */
+.stop-nav {
+    bottom: auto;
+    top: auto;
+}
+
+/* REMOVE SCROLLBAR INDICATOR */
+body::-webkit-scrollbar {
+    -ms-overflow-style: none;
+    scrollbar-width: none;
+    display: none;
+}
+#mainContent::-webkit-scrollbar {
+    display: none;
+}
+#mainContent {
+    scrollbar-width: none;
+    -ms-overflow-style: none;
+}
+ 
