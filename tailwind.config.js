@@ -25,9 +25,9 @@ export default {
       },
       backgroundImage: {
         1: "url('../src/assets/images/bg-1.svg')",
-        "2-1": "../assets/images/bg-2-1.svg",
-        "2-2": "../assets/images/bg-2-2.svg",
-        3: "../assets/images/bg-3.svg",
+        "2-1": "url('../src/assets/images/bg-2-1.svg')",
+        "2-2": "url('../src/assets/images/bg-2-2.svg')",
+        3: "url('../src/assets/images/bg-3.svg')",
         5: "../assets/images/bg-5.svg",
       },
       height: {
