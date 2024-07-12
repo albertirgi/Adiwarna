@@ -1,4 +1,4 @@
-import Section2Pic from "../../assets/images/logo-kelana-only.svg";
+import LogoKelanaOnly from "../../assets/images/logo-kelana-only.svg";
 
 const Section2 = () => {
   return (
@@ -12,7 +12,7 @@ const Section2 = () => {
             <div className="flex flex-row">
               <div className="basis-1/4 flex">
                 <div className="flex flex-col items-center justify-center pt-10">
-                  <img src={Section2Pic} />
+                  <img src={LogoKelanaOnly} />
                   <div className="w-1 h-full bg-custom-white mt-2"></div>
                 </div>
               </div>
@@ -37,29 +37,29 @@ const Section2 = () => {
               <h1 className="text-custom-white font-jakarta-sans text-2xl font-bold">
                 upcoming <span className="text-custom-white font-jakarta-sans text-2xl font-normal italic">event</span>
               </h1>
-              <img src="{{ asset('assets/images/logo-kelana-only.svg') }}" />
+              <img src={LogoKelanaOnly} />
               <h1 className="text-custom-white font-caslon-text text-2xl font-normal italic">
                 upcoming <span className="text-custom-white font-jakarta-sans text-2xl font-normal">event</span>
               </h1>
-              <img src="{{ asset('assets/images/logo-kelana-only.svg') }}" />
+              <img src={LogoKelanaOnly} />
 
               <h1 className="text-custom-white font-jakarta-sans text-2xl font-bold">
                 upcoming <span className="text-custom-white font-caslon-text text-2xl font-normal italic">event</span>
               </h1>
-              <img src="{{ asset('assets/images/logo-kelana-only.svg') }}" />
+              <img src={LogoKelanaOnly} />
               <h1 className="text-custom-white font-jakarta-sans text-2xl font-bold">
                 upcoming <span className="text-custom-white font-jakarta-sans text-2xl font-normal italic">event</span>
               </h1>
-              <img src="{{ asset('assets/images/logo-kelana-only.svg') }}" />
+              <img src={LogoKelanaOnly} />
               <h1 className="text-custom-white font-caslon-text text-2xl font-normal italic">
                 upcoming <span className="text-custom-white font-jakarta-sans text-2xl font-normal">event</span>
               </h1>
-              <img src="{{ asset('assets/images/logo-kelana-only.svg') }}" />
+              <img src={LogoKelanaOnly} />
 
               <h1 className="text-custom-white font-jakarta-sans text-2xl font-bold">
                 upcoming <span className="text-custom-white font-caslon-text text-2xl font-normal italic">event</span>
               </h1>
-              <img src="{{ asset('assets/images/logo-kelana-only.svg') }}" />
+              <img src={LogoKelanaOnly} />
             </div>
           </div>
 

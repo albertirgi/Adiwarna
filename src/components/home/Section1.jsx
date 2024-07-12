@@ -6,8 +6,7 @@ const Section1 = () => {
       className="bg-1 relative w-full h-screen bg-no-repeat bg-cover"
     >
       <div
-        className="flex relative flex-col w-full max-w-[1065px] justify-center mx-auto"
-        style={{ paddingTop: '115px' }}
+        className="flex relative flex-col w-full max-w-[63.5%] pt-28 justify-center mx-auto"
       >
         <h1 className="text-custom-white font-jakarta-sans text-13xl font-bold">
           tentang
@@ -39,8 +38,7 @@ const Section1 = () => {
                 />
               </figure>
               <div
-                className="flex flex-col absolute"
-                style={{ top: '16px', left: '355px' }}
+                className="flex flex-col absolute mt-4 ml-72 pl-3"
               >
                 <h2 className="text-custom-white font-caslon-condensed mt-36 text-14xl italic">
                   kelana

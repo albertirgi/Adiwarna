@@ -16,11 +16,11 @@ export default {
         "jakarta-sans": ["Plus Jakarta Sans", "sans-serif"],
       },
       fontSize: {
-        "10xl": "17px",
-        "11xl": "25px",
+        "10xl": "1.06em",
+        "11xl": "1.55em",
         "12xl": "80px",
-        "13xl": "115px",
-        "14xl": "155px",
+        "13xl": "7.2em",
+        "14xl": "9.65em",
         "15xl": "104px",
       },
       backgroundImage: {
@@ -28,7 +28,7 @@ export default {
         "2-1": "url('../src/assets/images/bg-2-1.svg')",
         "2-2": "url('../src/assets/images/bg-2-2.svg')",
         3: "url('../src/assets/images/bg-3.svg')",
-        5: "../assets/images/bg-5.svg",
+        5: "url('../src/assets/images/bg-5.svg')",
       },
       height: {
         "2screen": "200vh",
