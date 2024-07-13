@@ -16,11 +16,11 @@ export default {
         "jakarta-sans": ["Plus Jakarta Sans", "sans-serif"],
       },
       fontSize: {
-        "10xl": "1.06em",
+        "10xl": "1em",
         "11xl": "1.55em",
         "12xl": "80px",
-        "13xl": "7.2em",
-        "14xl": "9.65em",
+        "13xl": "6.8em",
+        "14xl": "9em",
         "15xl": "104px",
       },
       backgroundImage: {
