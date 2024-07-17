@@ -1,73 +1,39 @@
+import Merch1 from "../../assets/images/merch-1.webp";
 
-export const Section5 = () => {
+const Section5 = () => {
   return (
-    <div className="bg-5 relative w-full h-screen bg-no-repeat bg-cover flex relative flex-col px-48 py-28">
-<h2 className="relative self-start text-12xl text-center text-custom-white leading-tight">
-                <span className="font-caslon-display text-[100px]">in</span>
-                <span className="font-caslon-condensed italic">partner</span><span
-                    className="font-caslon-display text-[100px]">ships with</span>
-            </h2>
-            <div className="relative self-center mt-20 mb-9 w-[900px]">
-                <div className="flex gap-5">
-                    <div className="flex flex-col w-[33%]">
-                        <div className="flex relative flex-col grow items-center">
-                            <div
-                                className="shrink-0 rounded-lg bg-zinc-300 h-[200px] w-[200px] hover:scale-105 hover:shadow-lg hover:cursor-pointer transition-transform duration-300 ease-in-out">
-                            </div>
-                            <div
-                                className="shrink-0 mt-11 rounded-lg bg-zinc-300 h-[100px] w-[100px] hover:scale-105 hover:shadow-lg hover:cursor-pointer transition-transform duration-300 ease-in-out">
-                            </div>
-                            <div className="flex gap-3 justify-between self-stretch mt-11">
-                                <div
-                                    className="shrink-0 w-16 h-16 rounded-lg bg-zinc-300 hover:scale-105 hover:shadow-lg hover:cursor-pointer transition-transform duration-300 ease-in-out">
-                                </div>
-                                <div
-                                    className="shrink-0 w-16 h-16 rounded-lg bg-zinc-300 hover:scale-105 hover:shadow-lg hover:cursor-pointer transition-transform duration-300 ease-in-out">
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                    <div className="flex flex-col w-[33%] ml-5">
-                        <div className="flex relative flex-col grow items-center">
-                            <div
-                                className="shrink-0 rounded-lg bg-zinc-300 h-[200px] w-[200px] hover:scale-105 hover:shadow-lg hover:cursor-pointer transition-transform duration-300 ease-in-out">
-                            </div>
-                            <div className="flex gap-5 justify-between self-stretch mt-11">
-                                <div
-                                    className="shrink-0 rounded-lg bg-zinc-300 h-[100px] w-[100px] hover:scale-105 hover:shadow-lg hover:cursor-pointer transition-transform duration-300 ease-in-out">
-                                </div>
-                                <div
-                                    className="shrink-0 rounded-lg bg-zinc-300 h-[100px] w-[100px] hover:scale-105 hover:shadow-lg hover:cursor-pointer transition-transform duration-300 ease-in-out">
-                                </div>
-                            </div>
-                            <div
-                                className="shrink-0 mt-11 w-16 h-16 rounded-lg bg-zinc-300 max-md:mt-10 hover:scale-105 hover:shadow-lg hover:cursor-pointer transition-transform duration-300 ease-in-out">
-                            </div>
-                        </div>
-                    </div>
-                    <div className="flex flex-col w-[33%] ml-5">
-                        <div className="flex relative flex-col grow items-center">
-                            <div
-                                className="shrink-0 rounded-lg bg-zinc-300 h-[200px] w-[200px] hover:scale-105 hover:shadow-lg hover:cursor-pointer transition-transform duration-300 ease-in-out">
-                            </div>
-                            <div
-                                className="shrink-0 mt-11 rounded-lg bg-zinc-300 h-[100px] w-[100px] hover:scale-105 hover:shadow-lg hover:cursor-pointer transition-transform duration-300 ease-in-out">
-                            </div>
-                            <div className="flex gap-3 justify-between self-stretch mt-11">
-                                <div
-                                    className="shrink-0 w-16 h-16 rounded-lg bg-zinc-300 hover:scale-105 hover:shadow-lg hover:cursor-pointer transition-transform duration-300 ease-in-out">
-                                </div>
-                                <div
-                                    className="shrink-0 w-16 h-16 rounded-lg bg-zinc-300 hover:scale-105 hover:shadow-lg hover:cursor-pointer transition-transform duration-300 ease-in-out">
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-                </div>
+    <div className="bg-5 bg-cover bg-no-repeat flex flex-col w-full h-fit lg:px-14 xl:px-20">
+      <div className="flex relative flex-col w-full mx-auto lg:max-w-[1024px] xl:max-w-[1440px]">
+        <div className="flex justify-center items-center lg:text-3lg lg:mt-20 lg:pt-1 xl:text-3xl xl:mt-28 xl:pt-1">
+          <h1>
+            <span className="font-bold font-jakarta-sans text-custom-white lg:mr-3 xl:mr-5">
+              our
+            </span>
+            <span className="italic font-caslon-condensed text-custom-white">
+              merch
+            </span>
+          </h1>
+        </div>
+        <div>
+          <div className="flex tems-center justify-center">
+            <img
+              src={Merch1}
+              alt=""
+              className="w-full lg:mt-6 xl:mt-8 xl:mx-7"
+            />
+          </div>
+        </div>
+        <div
+          className="font-jakarta-sans font-light text-custom-white self-end underline hover:cursor-pointer lg:text-2lg lg:mt-10 lg:mb-28 xl:text-2xl xl:mr-7 xl:mt-16 xl:mb-40"
+          tabIndex="0"
+          role="button"
+        >
+          {" "}
+          more...
+        </div>
+      </div>
     </div>
   );
 };
 
 export default Section5;
-

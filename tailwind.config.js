@@ -18,13 +18,13 @@ export default {
       fontSize: {
         "1xl": "1.06em",
         "2xl": "1.55em",
-        "3xl": "80px",
+        "3xl": "5.5em",
         "4xl": "7.2em",
         "5xl": "9.5em",
         "6xl": "104px",
         "1lg": "0.75em",
         "2lg": "1.15em",
-        "3lg": "80px",
+        "3lg": "3.5em",
         "4lg": "5.1em",
         "5lg": "6.8em",
         "6lg": "104px"
@@ -33,16 +33,17 @@ export default {
         1: "url('../src/assets/images/bg-1.svg')",
         "2-1": "url('../src/assets/images/bg-2-1.svg')",
         "2-2": "url('../src/assets/images/bg-2-2.svg')",
+        4: "url('../src/assets/images/bg-4.svg')",
         3: "url('../src/assets/images/bg-3.svg')",
         5: "url('../src/assets/images/bg-5.svg')",
+        6: "url('../src/assets/images/bg-6.svg')",
       },
       height: {
         "2screen": "200vh",
         footer: "39vh",
       },
       width: {
-        "custom-earth": "50vw",
-        "custom-earth-2": "54vw",
+        "custom-earth": "57vw",
         footer: "39vh",
       },
       animation: {
