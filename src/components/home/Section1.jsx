@@ -3,13 +3,13 @@ import Section1Pic from "../../assets/images/pic-section1.webp";
 const Section1 = () => {
   return (
     <div className="bg-1 bg-no-repeat bg-cover">
-      <div className="flex relative flex-col w-full mx-auto lg: max-w-[760px] lg:pt-20 xl:max-w-[1070px] xl:pt-32">
+      <div className="flex relative flex-col w-full mx-auto lg:max-w-[760px] lg:pt-20 xl:max-w-[1070px] xl:pt-32">
         <h1 className="text-custom-white font-jakarta-sans font-bold items-start lg:text-4lg xl:text-4xl">
           tentang
         </h1>
 
         <div className="flex gap-5">
-          <div className="flex flex-col text-custom-white font-jakarta-sans font-light leading-tight w-[30%] lg:text-1lg xl:text-1xl">
+          <div className="flex flex-col text-custom-white font-jakarta-sans font-light leading-tight w-[30%] lg:text-1lg xl:text-base">
             <p className="lg:mt-5 xl:mt-8">
               Adiwarna is an annual event held by Humanity and Creative Industry
               of Petra Christian University showcasing final projects of senior
