@@ -27,7 +27,7 @@ export default {
         "3lg": "3.5em",
         "4lg": "5.1em",
         "5lg": "6.8em",
-        "6lg": "104px"
+        "6lg": "104px",
       },
       backgroundImage: {
         1: "url('../src/assets/images/bg-1.svg')",
@@ -49,6 +49,8 @@ export default {
       animation: {
         spin: "spin 20s linear infinite",
         moveBackground: "moveBackground 2s linear infinite",
+        marquee: "marquee 10s linear infinite",
+        marquee2: "marquee2 10s linear infinite",
       },
       keyframes: {
         spin: {
@@ -58,6 +60,14 @@ export default {
         moveBackground: {
           "0%": { backgroundPosition: "0% 0%" },
           "100%": { backgroundPosition: "100% 100%" },
+        },
+        marquee: {
+          "0%": { transform: "translateX(0%)" },
+          "100%": { transform: "translateX(-100%)" },
+        },
+        marquee2: {
+          "0%": { transform: "translateX(100%)" },
+          "100%": { transform: "translateX(0%)" },
         },
       },
     },

@@ -9,7 +9,7 @@ const Section1 = () => {
         </h1>
 
         <div className="flex gap-5">
-          <div className="flex flex-col text-custom-white font-jakarta-sans font-light leading-tight w-[30%] lg:text-1lg xl:text-1xl">
+          <div className="flex flex-col text-custom-white font-jakarta-sans font-light leading-tight w-[30%] lg:text-1lg xl:text-base">
             <p className="lg:mt-5 xl:mt-8">
               Adiwarna is an annual event held by Humanity and Creative Industry
               of Petra Christian University showcasing final projects of senior
