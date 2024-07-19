@@ -1,3 +1,5 @@
+import { Link } from "react-router-dom";
+
 const Section4 = () => {
   return (
     <div className="bg-4 bg-cover bg-no-repeat flex flex-col w-full h-fit lg:px-14 xl:px-20">
@@ -57,8 +59,7 @@ const Section4 = () => {
           tabIndex="0"
           role="button"
         >
-          {" "}
-          more works
+          <Link to="/category">more works</Link>
         </div>
       </div>
     </div>

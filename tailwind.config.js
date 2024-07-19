@@ -37,14 +37,10 @@ export default {
         3: "url('../src/assets/images/bg-3.svg')",
         5: "url('../src/assets/images/bg-5.svg')",
         6: "url('../src/assets/images/bg-6.svg')",
-      },
-      height: {
-        "2screen": "200vh",
-        footer: "39vh",
+        "category": "url('../src/assets/images/category.svg')",
       },
       width: {
         "custom-earth": "57vw",
-        footer: "39vh",
       },
       animation: {
         spin: "spin 20s linear infinite",

@@ -1,11 +1,11 @@
 import LogoAdiwarnaKelana from "../../assets/images/logo-adiwarna-kelana.svg";
 
-const Navbar = () => {
+const FixNavbar = () => {
   return (
     <div>
       <nav
-        id="navbar"
-        className="bg-custom-gray fixed top-0 z-30 w-full opacity-0 transition-opacity duration-1000"
+        id="fix-navbar"
+        className="bg-custom-gray fixed top-0 z-30 w-full"
       >
         <div className="px-16">
           <div className="relative">
@@ -91,4 +91,4 @@ const Navbar = () => {
   );
 };
 
-export default Navbar;
+export default FixNavbar;

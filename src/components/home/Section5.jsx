@@ -1,4 +1,5 @@
-import Merch1 from "../../assets/images/merch-1.webp";
+import Merch1 from "../../assets/images/merch-1.svg";
+// import Merch2 from "../../assets/images/merch-2.svg";
 
 const Section5 = () => {
   return (
