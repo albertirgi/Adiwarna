@@ -2,7 +2,7 @@ import { Link } from "react-router-dom";
 import FixNavbar from "../../global/FixNavbar";
 import Footer from "../../global/Footer";
 
-const SocialContribution = () => {
+const DigitalMedia = () => {
   return (
     <div>
       <FixNavbar />
@@ -20,7 +20,7 @@ const SocialContribution = () => {
           </div>
           <div className="self-start lg:text-3lg xl:text-3xl">
             <span className="self-start italic font-medium font-caslon-condensed text-custom-purple">
-              Social Contribution
+              Digital Media
             </span>
           </div>
           <div className="flex mt-5">
@@ -162,4 +162,4 @@ const SocialContribution = () => {
   );
 };
 
-export default SocialContribution;
+export default DigitalMedia;

@@ -1,3 +1,4 @@
+import { Link } from "react-router-dom";
 import LogoAdiwarnaKelana from "../../assets/images/logo-adiwarna-kelana.svg";
 
 const FixNavbar = () => {
@@ -11,34 +12,40 @@ const FixNavbar = () => {
           <div className="relative">
             <div className="flex flex-1 items-center justify-between">
               <div className="flex flex-shrink-0 items-center">
-                <img
-                  className="h-8 w-auto hover:scale-110 hover:cursor-pointer transition-transform duration-300 ease-in-out"
-                  src={LogoAdiwarnaKelana}
-                  alt="Your Company"
-                />
+              <Link to="/">
+                  <img
+                    className="h-8 w-auto hover:scale-110 hover:cursor-pointer transition-transform duration-300 ease-in-out"
+                    src={LogoAdiwarnaKelana}
+                    alt="Your Company"
+                  />
+                </Link>
               </div>
               <div className="hidden lg:ml-6 lg:block">
                 <div className="flex space-x-16">
                   <a
-                    href="#"
+                    id="home"
+                    href="/"
                     className="rounded-md p-1 text-base font-bold text-white hover:text-white hover:scale-110 hover:cursor-pointer transition-transform duration-300 ease-in-out"
                     aria-current="page"
                   >
                     HOME
                   </a>
                   <a
-                    href="#"
+                    id="curated-works"
+                    href="/category"
                     className="rounded-md p-1 text-base font-bold text-gray-300 hover:text-white hover:scale-110 hover:cursor-pointer transition-transform duration-300 ease-in-out"
                   >
                     CURATED WORKS
                   </a>
                   <a
+                    id="vote"
                     href="#"
                     className="rounded-md p-1 text-base font-bold text-gray-300 hover:text-white hover:scale-110 hover:cursor-pointer transition-transform duration-300 ease-in-out"
                   >
                     VOTE
                   </a>
                   <a
+                    id="winner"
                     href="#"
                     className="rounded-md p-1 text-base font-bold text-gray-300 hover:text-white hover:scale-110 hover:cursor-pointer transition-transform duration-300 ease-in-out"
                   >
