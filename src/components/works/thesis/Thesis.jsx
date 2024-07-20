@@ -27,7 +27,7 @@ const Thesis = () => {
             <article className="flex flex-col items-center w-[33%]">
               <Link to="/category/thesis/nama-perancang1">
                 <div className="flex flex-col grow text-custom-purple">
-                  <div className="flex justify-between items-start text-center bg-zinc-300 hover:scale-105 hover:shadow-lg hover:cursor-pointer transition-transform duration-300 ease-in-out lg:px-5 lg:py-44 xl:px-5 xl:pt-64 xl:pb-60"></div>
+                <div className="flex justify-between items-start text-center bg-zinc-300 hover:scale-105 hover:shadow-lg hover:cursor-pointer transition-transform duration-300 ease-in-out lg:px-5 lg:py-44 xl:px-5 xl:pt-64 xl:pb-60"></div>
                   <h2 className="font-jakarta-sans font-semibold text-justify leading-tight lg:mt-2 lg:text-2lg xl:mt-3 xl:text-2xl">
                     Judul Karya Lorem Ipsum Dolor Sit Amet Adipiscing Elit Ut
                     Suscipit Turpis Enim Vel Tristique Du.
