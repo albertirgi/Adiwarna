@@ -23,17 +23,18 @@ const Navbar = () => {
               <div className="hidden lg:ml-6 lg:block">
                 <div className="flex space-x-16">
                   <a
-                    href="/"
+                    id="home"
                     className="rounded-md p-1 text-base font-bold text-white hover:text-white hover:scale-110 hover:cursor-pointer transition-transform duration-300 ease-in-out"
                     aria-current="page"
                   >
-                    HOME
+                    <Link to="/">HOME</Link>
                   </a>
                   <a
+                    id="curated-works"
                     href="/category"
                     className="rounded-md p-1 text-base font-bold text-gray-300 hover:text-white hover:scale-110 hover:cursor-pointer transition-transform duration-300 ease-in-out"
                   >
-                    CURATED WORKS
+                    <Link to="/category">CURATED WORKS</Link>
                   </a>
                   <a
                     href="#"

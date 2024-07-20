@@ -4,15 +4,12 @@ import LogoAdiwarnaKelana from "../../assets/images/logo-adiwarna-kelana.svg";
 const FixNavbar = () => {
   return (
     <div>
-      <nav
-        id="fix-navbar"
-        className="bg-custom-gray fixed top-0 z-30 w-full"
-      >
+      <nav id="fix-navbar" className="bg-custom-gray fixed top-0 z-30 w-full">
         <div className="px-16">
           <div className="relative">
             <div className="flex flex-1 items-center justify-between">
               <div className="flex flex-shrink-0 items-center">
-              <Link to="/">
+                <Link to="/">
                   <img
                     className="h-8 w-auto hover:scale-110 hover:cursor-pointer transition-transform duration-300 ease-in-out"
                     src={LogoAdiwarnaKelana}
@@ -24,18 +21,17 @@ const FixNavbar = () => {
                 <div className="flex space-x-16">
                   <a
                     id="home"
-                    href="/"
                     className="rounded-md p-1 text-base font-bold text-white hover:text-white hover:scale-110 hover:cursor-pointer transition-transform duration-300 ease-in-out"
                     aria-current="page"
                   >
-                    HOME
+                    <Link to="/">HOME</Link>
                   </a>
                   <a
                     id="curated-works"
                     href="/category"
                     className="rounded-md p-1 text-base font-bold text-gray-300 hover:text-white hover:scale-110 hover:cursor-pointer transition-transform duration-300 ease-in-out"
                   >
-                    CURATED WORKS
+                    <Link to="/category">CURATED WORKS</Link>
                   </a>
                   <a
                     id="vote"
