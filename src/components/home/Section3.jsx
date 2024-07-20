@@ -16,7 +16,7 @@ const Section3 = () => {
               </a>
             </p>
             <p className="text-custom-white pb-20 lg:text-2lg xl:text-2xl">
-              Lorem Ipsum
+              Coming Soon
             </p>
           </div>
         </div>
