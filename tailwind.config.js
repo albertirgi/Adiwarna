@@ -37,7 +37,9 @@ export default {
         3: "url('../src/assets/images/bg-3.svg')",
         5: "url('../src/assets/images/bg-5.svg')",
         6: "url('../src/assets/images/bg-6.svg')",
+        7: "url('../src/assets/images/bg-7.svg')",
         "category": "url('../src/assets/images/category.svg')",
+        "merch" : "url('../src/assets/images/bg-merch.svg')",
       },
       width: {
         "custom-earth": "57vw",

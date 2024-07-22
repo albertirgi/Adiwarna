@@ -4,20 +4,20 @@ const BannerItem = ({type}) => {
   var element = null;
   if (type == 1) {
     element = (
-      <h1 className="text-custom-white font-jakarta-sans xl:text-[24px] font-bold">
-        upcoming <span className="text-custom-white font-jakarta-sans xl:text-[24px] font-normal italic">event</span>
+      <h1 className="text-custom-white leading-none font-jakarta-sans lg:text-[24px] xl:text-[24px] 2xl:text-[38px] font-bold">
+        upcoming <span className="text-custom-white font-jakarta-sans lg:text-[24px] xl:text-[24px] 2xl:text-[38px] font-normal italic">event</span>
       </h1>
     );
   } else if (type == 2) {
     element = (
-      <h1 className="text-custom-white font-caslon-text xl:text-[24px] font-normal italic">
-        upcoming <span className="text-custom-white font-jakarta-sans xl:text-[24px] font-normal">event</span>
+      <h1 className="text-custom-white leading-none font-caslon-text lg:text-[24px] xl:text-[24px] 2xl:text-[38px] font-normal italic">
+        upcoming <span className="text-custom-white font-jakarta-sans lg:text-[24px] xl:text-[24px] 2xl:text-[38px] font-normal">event</span>
       </h1>
     );
   } else if (type == 3) {
     element = (
-      <h1 className="text-custom-white font-jakarta-sans xl:text-[24px] font-bold">
-        upcoming <span className="text-custom-white font-caslon-text xl:text-[24px] font-normal italic">event</span>
+      <h1 className="text-custom-white leading-none font-jakarta-sans lg:text-[24px] xl:text-[24px] 2xl:text-[38px] font-bold">
+        upcoming <span className="text-custom-white font-caslon-text lg:text-[24px] xl:text-[24px] 2xl:text-[38px] font-normal italic">event</span>
       </h1>
     );
   }

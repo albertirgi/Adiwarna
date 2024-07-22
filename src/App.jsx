@@ -7,6 +7,10 @@ import BrandAndProductInnovation from "./components/works/brand-and-product-inno
 import GraphicDesign from "./components/works/graphic-design/GraphicDesign"
 import DigitalMedia from "./components/works/digital-media/DigitalMedia"
 import NamaPerancang1 from "./components/works/thesis/NamaPerancang1"
+import Event from "./components/event/Event"
+import EventDetail from "./components/event/EventDetail"
+import Merch from "./components/merch/Merch"
+
 
 function App() {
   return (
@@ -20,6 +24,9 @@ function App() {
         <Route path="/category/graphic-design" element={<GraphicDesign />} />
         <Route path="/category/digital-media" element={<DigitalMedia />} />
         <Route path="/category/thesis/nama-perancang1" element={<NamaPerancang1 />} />
+        <Route path="/event" element={<Event />} />
+        <Route path="/event/:id" element={<EventDetail />} />
+        <Route path="/merch" element={<Merch/>}></Route>
       </Routes>
     </>
   )
