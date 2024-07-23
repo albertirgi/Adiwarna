@@ -10,7 +10,7 @@ const Section2 = () => {
       <div className="bg-2-1 bg-no-repeat bg-cover">
         <div className="flex relative flex-row w-full mx-auto lg:max-w-[760px] xl:max-w-[1070px] lg:pb-16 xl:pb-44">
           <div className="lg:basis-7/12 xl:basis-7/12 flex justify-end lg:mt-28 xl:pr-4 xl:mt-36 2xl:mr-0">
-            <h1 className="text-custom-white font-jakarta-sans xl:text-[64px] 2xl:text-[76px] font-bold ">timeline</h1>
+            <h1 className="text-custom-white font-jakarta-sans lg:text-[56px] xl:text-[64px] 2xl:text-[76px] font-bold ">timeline</h1>
           </div>
           <div className="lg:basis-5/12 xl:basis-5/12 flex justify-start lg:mt-28 xl:mt-44">
             <div className="flex w-full flex-row">
@@ -43,12 +43,6 @@ const Section2 = () => {
               <img className="lg:size-6 xl:size-9 2xl:size-12" src={LogoKelanaOnly} />
               <BannerItem type={1} />
               <img className="lg:size-6 xl:size-9 2xl:size-12" src={LogoKelanaOnly} />
-              {/* <BannerItem type={2} />
-              <img className="lg:size-6 xl:size-9 2xl:size-12" src={LogoKelanaOnly} /> */}
-              {/* <BannerItem type={3} />
-              <img className="lg:size-6 xl:size-9" src={LogoKelanaOnly} /> */}
-              {/* <BannerItem type={1} />
-              <img className="lg:size-6 xl:size-9" src={LogoKelanaOnly} /> */}
             </div>
             <div className=" absolute inset-0 items-center justify-evenly animate-marquee2 flex flex-row  space-x-4 whitespace-nowrap">
               <BannerItem type={1} />
@@ -59,12 +53,6 @@ const Section2 = () => {
               <img className="lg:size-6 xl:size-9 2xl:size-12" src={LogoKelanaOnly} />
               <BannerItem type={1} />
               <img className="lg:size-6 xl:size-9 2xl:size-12" src={LogoKelanaOnly} />
-              {/* <BannerItem type={2} /> */}
-              {/* <img className="lg:size-6 xl:size-9 2xl:size-12" src={LogoKelanaOnly} /> */}
-              {/* <BannerItem type={3} />
-              <img className="lg:size-6 xl:size-9" src={LogoKelanaOnly} />
-              <BannerItem type={1} />
-              <img className="lg:size-6 xl:size-9" src={LogoKelanaOnly} /> */}
             </div>
           </div>
         </div>
