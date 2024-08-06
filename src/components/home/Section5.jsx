@@ -1,5 +1,6 @@
 import Merch1 from "../../assets/images/merch-1.svg";
 // import Merch2 from "../../assets/images/merch-2.svg";
+import { Link } from "react-router-dom";
 
 const Section5 = () => {
   return (
@@ -30,7 +31,7 @@ const Section5 = () => {
           role="button"
         >
           {" "}
-          more...
+          <Link to="/merch">more...</Link>
         </div>
       </div>
     </div>
