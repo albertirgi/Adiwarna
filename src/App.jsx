@@ -10,6 +10,7 @@ import NamaPerancang1 from "./components/works/thesis/NamaPerancang1"
 import Event from "./components/event/Event"
 import EventDetail from "./components/event/EventDetail"
 import Merch from "./components/merch/Merch"
+import MerchDetail from "./components/merch/MerchDetail"
 
 
 function App() {
@@ -26,7 +27,8 @@ function App() {
         <Route path="/category/thesis/nama-perancang1" element={<NamaPerancang1 />} />
         <Route path="/event" element={<Event />} />
         <Route path="/event/:id" element={<EventDetail />} />
-        <Route path="/merch" element={<Merch/>}></Route>
+        <Route path="/merch" element={<Merch/>}/>
+        <Route path="/merch/:id" element={<MerchDetail/>}/>
       </Routes>
     </>
   )

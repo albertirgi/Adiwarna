@@ -20,11 +20,29 @@ const EventDetail = () => {
                 <img src={event.img} className="w-full h-full"></img>
               </div>
             </div>
-            <div className="flex flex-col justify-center pr-40">
-              <h1 className="text-custom-white font-jakarta-sans font-bold lg:text-[36px] xl:text-[44px] pb-4">{event.title}</h1>
-              <p className="text-custom-white text-justify font-jakarta-sans font-light lg:text-[14px] xl:text-[16px] pb-4">{event.description} consectur adipisc.</p>
+            <div className="flex flex-col justify-center">
+              {event.sub == "" ? (
+                <h1 className="text-custom-white font-jakarta-sans font-bold lg:text-[36px] xl:text-[40px] pb-4">{event.title}</h1>
+              ) : (
+                <>
+                  <h1 className="text-custom-white font-jakarta-sans font-bold lg:text-[20px] xl:text-[24px]">{event.title}</h1>
+                  <h1 className="text-custom-white font-jakarta-sans font-bold lg:text-[36px] xl:text-[40px] pb-4">{event.sub}</h1>
+                </>
+              )}
+              <p className="text-custom-white text-left font-jakarta-sans font-light lg:text-[16px] xl:text-[20px] pb-16">{event.desc2 == "" ? event.desc : event.desc2}</p>
               <p className="text-custom-white font-jakarta-sans font-light lg:text-[16px] xl:text-[20px] pb-4">Date: {event.date}</p>
-              <button className="lg:w-[256px] lg:h-[32px]  xl:w-[304px] xl:h-[40px] bg-custom-purple rounded-3xl text-custom-white font-jakarta-sans font-bold lg:text-[16px] xl:text-[20px]">Registration</button>
+              <div className="flex flex-row gap-x-4 h-fit w-full ">
+                {event.brief != "" && (
+                  <a href={event.brief} target="_blank" rel="noreferrer" className="lg:w-[256px] lg:h-[32px] xl:w-[304px] xl:h-[40px] bg-transparent border-2 border-white rounded-3xl text-custom-white flex items-center justify-center font-jakarta-sans font-bold lg:text-[16px] xl:text-[20px]">
+                    Brief Lomba
+                  </a>
+                )}
+                {event.regist != "" && (
+                  <a href={event.regist} target="_blank" rel="noreferrer" className="lg:w-[256px] lg:h-[32px] xl:w-[304px] xl:h-[40px] bg-custom-purple rounded-3xl text-custom-white flex items-center justify-center font-jakarta-sans font-bold lg:text-[16px] xl:text-[20px]">
+                    Registration
+                  </a>
+                )}
+              </div>
             </div>
           </div>
           <Link to="/event" className="font-bold text-custom-white text-[24px] text-end hover:cursor-pointer hover:underline decoration-1 underline-offset-4 mb-12">

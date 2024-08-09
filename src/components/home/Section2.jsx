@@ -34,7 +34,7 @@ const Section2 = () => {
       <div className="bg-2-2 bg-no-repeat bg-cover lg:px-14 xl:px-20 relative">
         <div className="absolute top-0 left-0 w-full">
           <div className="relative overflow-x-hidden flex lg:h-12 xl:h-16 bg-[#FA0202] lg:border-y-2 xl:border-y-2 border-y-white">
-            <div className="absolute inset-0 items-center justify-evenly  animate-marquee flex flex-row space-x-4 whitespace-nowrap">
+            <div className="absolute inset-0 items-center justify-evenly  animate-marquee flex flex-row whitespace-nowrap">
               <BannerItem type={1} />
               <img className="lg:size-6 xl:size-9 2xl:size-12" src={LogoKelanaOnly} />
               <BannerItem type={2} />
@@ -44,7 +44,7 @@ const Section2 = () => {
               <BannerItem type={1} />
               <img className="lg:size-6 xl:size-9 2xl:size-12" src={LogoKelanaOnly} />
             </div>
-            <div className=" absolute inset-0 items-center justify-evenly animate-marquee2 flex flex-row  space-x-4 whitespace-nowrap">
+            <div className=" absolute inset-0 items-center justify-evenly animate-marquee2 flex flex-row whitespace-nowrap">
               <BannerItem type={1} />
               <img className="lg:size-6 xl:size-9 2xl:size-12" src={LogoKelanaOnly} />
               <BannerItem type={2} />
@@ -57,12 +57,12 @@ const Section2 = () => {
           </div>
         </div>
         <div className="flex relative flex-col mx-auto lg:max-w-[1024px] xl:max-w-[1440px] pb-48">
-          <h1 className="text-custom-white font-jakarta-sans lg:text-[48px] xl:text-[76px] font-bold py-16">
+          <h1 className="text-custom-white font-jakarta-sans lg:text-[48px] xl:text-[76px] font-bold pt-24 pb-16">
             upcoming <span className="font-normal font-caslon-text italic">event</span>
           </h1>
-          <div className="grid gap-x-8 gap-y-24 grid-cols-3 px-8">
+          <div className="grid gap-x-12 gap-y-24 grid-cols-3 px-4">
             {events.map((event) => (
-              <EventItem key={event.id} id={event.id} img={event.img} name={event.title} desc={event.description} date={event.date} />
+              <EventItem key={event.id} id={event.id} img={event.img} name={event.display != "" ? event.display : event.title} desc={event.desc} date={event.date} />
             ))}
           </div>
         </div>
