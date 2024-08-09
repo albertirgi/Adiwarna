@@ -21,7 +21,7 @@ const Section2 = () => {
               <div className="basis-3/4">
                 <div className="flex flex-col lg:pl-4 xl:pl-0 pt-8">
                   <TimelineItem content="roadshow" date="5-9 Agustus 2024" />
-                  <TimelineItem content="roadshow" date="12-13 Agustus 2024" />
+                  <TimelineItem content="competition" date="14-16 Agustus 2024" />
                   <TimelineItem content="workshop" date="14 Agustus 2024" />
                   <TimelineItem content="talkshow" date="15-16 Agustus 2024" />
                   <TimelineItem content="exhibition" date="14-18 Agustus 2024" />
