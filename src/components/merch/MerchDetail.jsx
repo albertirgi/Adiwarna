@@ -1,4 +1,6 @@
 import { Link, useParams } from "react-router-dom";
+import { LazyLoadImage } from "react-lazy-load-image-component";
+import 'react-lazy-load-image-component/src/effects/blur.css';
 import FixNavbar from "../global/FixNavbar";
 import Footer from "../global/Footer";
 import { merchs } from "../global/Data";
@@ -6,22 +8,20 @@ import { merchs } from "../global/Data";
 const MerchDetail = () => {
   const { id } = useParams();
   const merch = merchs.find((merch) => merch.id == id);
-  console.log(merch);
+
   return (
     <>
       <FixNavbar />
       <div id="merch-detail" className="bg-5 bg-cover bg-no-repeat flex flex-col h-fit w-full lg:px-14 xl:px-20">
         <div className="flex relative flex-col w-full h-full mx-auto lg:max-w-[1024px] xl:max-w-[1440px] lg:pt-20 xl:pt-24">
-          <img className="w-full" src={merch.img[3].default}></img>
-          <div className="w-full h-fit">
-
-          </div>
+          <LazyLoadImage src={merch.img[3].default} className="w-full" effect="blur" />
+          <div className="w-full h-fit"></div>
           <div className="w-full flex flex-row pt-4">
             <div className="basis-2/4 flex flex-col">
               <div className="grid grid-cols-3 gap-x-4">
-                <img className="w-full" src={merch.img[0].default}></img>
-                <img className="w-full" src={merch.img[1].default}></img>
-                <img className="w-full" src={merch.img[2].default}></img>
+                <LazyLoadImage src={merch.img[0].default} className="w-full" effect="blur" />
+                <LazyLoadImage src={merch.img[1].default} className="w-full" effect="blur" />
+                <LazyLoadImage src={merch.img[2].default} className="w-full" effect="blur" />
               </div>
               <div className="h-full flex items-center mt-4 mb-12">
                 <Link to="/event" className="font-bold font-jakarta-sans text-custom-white text-[24px] text-end hover:cursor-pointer hover:underline decoration-1 underline-offset-4">
