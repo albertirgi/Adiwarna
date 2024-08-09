@@ -40,37 +40,37 @@ const Home = () => {
     }, 7200);
 
     // LOADING VIDEO LOGIC
-    // const loadingVideo = document.getElementById("loadingVideo");
-    // const mainVideo = document.getElementById("main-video");
-    // const mainContent = document.getElementById("mainContent");
-    // const kelanaMotion = document.getElementById("kelanaMotion");
-    // const navbar = document.getElementById("navbar");
+    const loadingVideo = document.getElementById("loadingVideo");
+    const mainVideo = document.getElementById("main-video");
+    const mainContent = document.getElementById("mainContent");
+    const kelanaMotion = document.getElementById("kelanaMotion");
+    const navbar = document.getElementById("navbar");
 
-    // const handleVideoEnd = () => {
-    //   setTimeout(() => {
-    //     loadingVideo.style.opacity = "0";
-    //     kelanaMotion.style.display = "block";
-    //     mainVideo.classList.remove("hidden");
-    //     setTimeout(() => {
-    //       loadingVideo.style.zIndex = "-21";
-    //     }, 500);
-    //     setTimeout(() => {
-    //       mainContent.classList.remove("hidden");
-    //     }, 4000);
-    //     setTimeout(() => {
-    //       navbar.style.opacity = "100";
-    //     }, 4500);
-    //   }, 0);
-    // };
+    const handleVideoEnd = () => {
+      setTimeout(() => {
+        loadingVideo.style.opacity = "0";
+        kelanaMotion.style.display = "block";
+        mainVideo.classList.remove("hidden");
+        setTimeout(() => {
+          loadingVideo.style.zIndex = "-21";
+        }, 500);
+        setTimeout(() => {
+          mainContent.classList.remove("hidden");
+        }, 4000);
+        setTimeout(() => {
+          navbar.style.opacity = "100";
+        }, 4500);
+      }, 0);
+    };
 
-    // loadingVideo.onended = handleVideoEnd;
+    loadingVideo.onended = handleVideoEnd;
   }, []);
 
   return (
     <div>
-      {/* <Navbar />
-      <Hero /> */}
-      <div id="mainContent" className="">
+      <Navbar />
+      <Hero />
+      <div id="mainContent" className="hidden">
         <Section1 />
         <Section2 />
         <Section3 />
