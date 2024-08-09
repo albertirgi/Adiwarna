@@ -4,17 +4,26 @@ import 'react-lazy-load-image-component/src/effects/blur.css';
 import FixNavbar from "../global/FixNavbar";
 import Footer from "../global/Footer";
 import { merchs } from "../global/Data";
+import Carousel from "../home/CarouselMerch";
 
 const MerchDetail = () => {
   const { id } = useParams();
   const merch = merchs.find((merch) => merch.id == id);
+  const imageArray = [
+    merch.img[3].default,
+    merch.img[4].default,
+  ];
 
   return (
     <>
       <FixNavbar />
       <div id="merch-detail" className="bg-5 bg-cover bg-no-repeat flex flex-col h-fit w-full lg:px-14 xl:px-20">
         <div className="flex relative flex-col w-full h-full mx-auto lg:max-w-[1024px] xl:max-w-[1440px] lg:pt-20 xl:pt-24">
-          <LazyLoadImage src={merch.img[3].default} className="w-full" effect="blur" />
+        <Carousel>
+              {imageArray.map((i, index) => (
+                <img src={i} key={index} />
+              ))}
+            </Carousel>
           <div className="w-full h-fit"></div>
           <div className="w-full flex flex-row pt-4">
             <div className="basis-2/4 flex flex-col">

@@ -1,14 +1,6 @@
 import FixNavbar from "../global/FixNavbar";
 import Footer from "../global/Footer";
 import MerchItem from "./MerchItem";
-import Merch1 from "../../assets/images/merchandise-1.svg";
-import Merch2 from "../../assets/images/merchandise-2.svg";
-import Merch3 from "../../assets/images/merchandise-3.svg";
-import Merch4 from "../../assets/images/merchandise-4.svg";
-import Merch5 from "../../assets/images/merchandise-5.svg";
-import Merch6 from "../../assets/images/merchandise-6.svg";
-import Merch7 from "../../assets/images/merchandise-7.svg";
-import Merch8 from "../../assets/images/merchandise-8.svg";
 
 const Merch = () => {
   return (
