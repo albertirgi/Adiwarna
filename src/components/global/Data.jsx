@@ -4,14 +4,14 @@ import Event3 from "../../assets/images/poster/poster-event-3.svg";
 import Event4 from "../../assets/images/poster/poster-event-4.svg";
 import Event5 from "../../assets/images/poster/poster-event-5.svg";
 import Event6 from "../../assets/images/poster/poster-event-6.svg";
-const shirt = Object.values(import.meta.glob("../../assets/images/merch/shirt/*.{png,jpg,jpeg,svg,PNG,JPEG}", { eager: true, query: "url" }));
-const curratedBook = Object.values(import.meta.glob("../../assets/images/merch/currated-book/*.{png,jpg,jpeg,svg,PNG,JPEG}", { eager: true, query: "url" }));
-const enamelPin = Object.values(import.meta.glob("../../assets/images/merch/enamel-pin/*.{png,jpg,jpeg,svg,PNG,JPEG}", { eager: true, query: "url" }));
-const keychainLarge = Object.values(import.meta.glob("../../assets/images/merch/keychain-large/*.{png,jpg,jpeg,svg,PNG,JPEG}", { eager: true, query: "url" }));
-const keychainMedium = Object.values(import.meta.glob("../../assets/images/merch/keychain-medium/*.{png,jpg,jpeg,svg,PNG,JPEG}", { eager: true, query: "url" }));
-const croptee = Object.values(import.meta.glob("../../assets/images/merch/croptee/*.{png,jpg,jpeg,svg,PNG,JPEG}", { eager: true, query: "url" }));
-const sticker = Object.values(import.meta.glob("../../assets/images/merch/sticker/*.{png,jpg,jpeg,svg,PNG,JPEG}", { eager: true, query: "url" }));
-const totebag = Object.values(import.meta.glob("../../assets/images/merch/totebag/*.{png,jpg,jpeg,svg,PNG,JPEG}", { eager: true, query: "url" }));
+const shirt = Object.values(import.meta.glob("../../assets/images/merch/shirt/*.{png,jpg,jpeg,svg,PNG,webp}", { eager: true, query: "url" }));
+const curratedBook = Object.values(import.meta.glob("../../assets/images/merch/currated-book/*.{png,jpg,jpeg,svg,PNG,webp}", { eager: true, query: "url" }));
+const enamelPin = Object.values(import.meta.glob("../../assets/images/merch/enamel-pin/*.{png,jpg,jpeg,svg,PNG,webp}", { eager: true, query: "url" }));
+const keychainLarge = Object.values(import.meta.glob("../../assets/images/merch/keychain-large/*.{png,jpg,jpeg,svg,PNG,webp}", { eager: true, query: "url" }));
+const keychainMedium = Object.values(import.meta.glob("../../assets/images/merch/keychain-medium/*.{png,jpg,jpeg,svg,PNG,webp}", { eager: true, query: "url" }));
+const croptee = Object.values(import.meta.glob("../../assets/images/merch/croptee/*.{png,jpg,jpeg,svg,PNG,webp}", { eager: true, query: "url" }));
+const sticker = Object.values(import.meta.glob("../../assets/images/merch/sticker/*.{png,jpg,jpeg,svg,PNG,webp}", { eager: true, query: "url" }));
+const totebag = Object.values(import.meta.glob("../../assets/images/merch/totebag/*.{png,jpg,jpeg,svg,PNG,webp}", { eager: true, query: "url" }));
 
 export const events = [
   {

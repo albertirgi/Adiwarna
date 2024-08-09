@@ -13,7 +13,6 @@ const MerchItem = ({id}) => {
     const merhcImage = merchImageRef.current;
 
     if (merhcImage) {
-
         merhcImage.addEventListener("click", () => {
         const link = merhcImage.querySelector(".link");
         link.click();
