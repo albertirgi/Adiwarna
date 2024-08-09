@@ -1,4 +1,4 @@
-import Carousel from "./CarouselMerch";
+import Carousel from "./Carousel";
 import Merch1 from "../../assets/images/merch-1.png";
 import Merch2 from "../../assets/images/merch-2.png";
 import { Link } from "react-router-dom";

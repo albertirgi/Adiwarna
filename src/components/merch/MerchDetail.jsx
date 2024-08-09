@@ -4,7 +4,7 @@ import 'react-lazy-load-image-component/src/effects/blur.css';
 import FixNavbar from "../global/FixNavbar";
 import Footer from "../global/Footer";
 import { merchs } from "../global/Data";
-import Carousel from "../home/CarouselMerch";
+import Carousel from "../home/Carousel";
 
 const MerchDetail = () => {
   const { id } = useParams();
