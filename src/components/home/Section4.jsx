@@ -1,3 +1,9 @@
+import works11 from "../../assets/images/works1-1.svg";
+import works12 from "../../assets/images/works1-2.svg";
+import works21 from "../../assets/images/works2-1.svg";
+import works22 from "../../assets/images/works2-2.svg";
+import works31 from "../../assets/images/works3-1.svg";
+import works32 from "../../assets/images/works3-2.svg";
 import { Link } from "react-router-dom";
 
 const Section4 = () => {
@@ -16,39 +22,39 @@ const Section4 = () => {
         </div>
         <div>
           <div className="flex">
-            <article className="flex flex-col items-center w-[33%]">
-              <div className="flex flex-col grow text-custom-purple">
-                <div className="flex justify-between items-start text-center bg-zinc-300 hover:scale-105 hover:shadow-lg hover:cursor-pointer transition-transform duration-300 ease-in-out lg:px-5 lg:py-44 xl:px-5 xl:pt-64 xl:pb-60"></div>
+            <article className="flex flex-col items-center w-[33%] relative">
+              <div className="flex flex-col grow text-custom-purple hover:cursor-pointer">
+                <img src={works12} className="absolute w-full opacity-0 transition-opacity duration-300 hover:opacity-100" />
+                <img src={works11} className="w-full" />
                 <h2 className="font-jakarta-sans font-semibold text-justify leading-tight lg:mt-2 lg:text-2lg xl:mt-3 xl:text-2xl">
-                  Judul Karya Lorem Ipsum Dolor Sit Amet Adipiscing Elit Ut
-                  Suscipit Turpis Enim Vel Tristique Du.
+                  Analisis Strategi Brand Activation Cat Dulux pada House of Sweet Embrace Exhibition.
                 </h2>
-                <p className="font-jakarta-sans font-light italic lg:text-1lg lg:mt-1 xl:text-1xl xl:mt-2">
-                  Nama Perancang
+                <p className="font-caslon-condensed font-light italic lg:text-1lg lg:mt-1 xl:text-1xl xl:mt-2">
+                  Gabriella Kova Lucetta
                 </p>
               </div>
             </article>
-            <article className="flex flex-col w-[33%] lg:mx-8 xl:mx-10">
-              <div className="flex flex-col grow text-custom-purple">
-                <div className="flex justify-between items-start text-center bg-zinc-300 hover:scale-105 hover:shadow-lg hover:cursor-pointer transition-transform duration-300 ease-in-out lg:px-5 lg:py-44 xl:px-5 xl:pt-64 xl:pb-60"></div>
+            <article className="flex flex-col w-[33%] lg:mx-8 xl:mx-10 relative">
+              <div className="flex flex-col grow text-custom-purple hover:cursor-pointer">
+                <img src={works22} className="absolute w-full opacity-0 transition-opacity duration-300 hover:opacity-100" />
+                <img src={works21} className="w-full" />
                 <h2 className="font-jakarta-sans font-semibold text-justify leading-tight lg:mt-2 lg:text-2lg xl:mt-3 xl:text-2xl">
-                  Judul Karya Lorem Ipsum Dolor Sit Amet Adipiscing Elit Ut
-                  Suscipit Turpis Enim Vel Tristique Du.
+                  Petallete
                 </h2>
-                <p className="font-jakarta-sans font-light italic lg:text-1lg lg:mt-1 xl:text-1xl xl:mt-2">
-                  Nama Perancang
+                <p className="font-caslon-condensed font-light italic lg:text-1lg lg:mt-1 xl:text-1xl xl:mt-2">
+                  Vanessa Tan
                 </p>
               </div>
             </article>
-            <article className="flex flex-col w-[33%]">
-              <div className="flex flex-col grow text-custom-purple">
-                <div className="flex justify-between items-start text-center bg-zinc-300 hover:scale-105 hover:shadow-lg hover:cursor-pointer transition-transform duration-300 ease-in-out lg:px-5 lg:py-44 xl:px-5 xl:pt-64 xl:pb-60"></div>
+            <article className="flex flex-col w-[33%] relative">
+              <div className="flex flex-col grow text-custom-purple hover:cursor-pointer">
+                <img src={works32} className="absolute w-full opacity-0 transition-opacity duration-300 hover:opacity-100" />
+                <img src={works31} className="w-full" />
                 <h2 className="font-jakarta-sans font-semibold text-justify leading-tight lg:mt-2 lg:text-2lg xl:mt-3 xl:text-2xl">
-                  Judul Karya Lorem Ipsum Dolor Sit Amet Adipiscing Elit Ut
-                  Suscipit Turpis Enim Vel Tristique Du.
+                  At The End of Time
                 </h2>
-                <p className="font-jakarta-sans font-light italic lg:text-1lg lg:mt-1 xl:text-1xl xl:mt-2">
-                  Nama Perancang
+                <p className="font-caslon-condensed font-light italic lg:text-1lg lg:mt-1 xl:text-1xl xl:mt-2">
+                  Becak Productions
                 </p>
               </div>
             </article>
