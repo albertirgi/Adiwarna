@@ -1,4 +1,4 @@
-import Section1Pic from "../../assets/images/pic-section1.webp";
+import Section1Pic from "../../assets/images/pic-section1.svg";
 
 const Section1 = () => {
   return (
@@ -11,16 +11,10 @@ const Section1 = () => {
         <div className="flex gap-5">
           <div className="flex flex-col text-custom-white font-jakarta-sans font-light leading-tight w-[30%] lg:text-1lg xl:text-base">
             <p className="lg:mt-5 xl:mt-8">
-              Adiwarna is an annual event held by Humanity and Creative Industry
-              of Petra Christian University showcasing final projects of senior
-              year students.
+              Adiwarna adalah acara tahunan yang memamerkan tugas akhir dari mahasiswa Desain Komunikasi Visual Universitas Kristen Petra
             </p>
             <p className="lg:mt-9 xl:mt-12">
-              vIn 2023, Adiwarna is back as an activity consisting of
-              exhibitions, talk shows, workshops, and awards for the best Final
-              Projects of Visual Communication Design, Fashion and Textile
-              Design, and International Digital Media of Petra Christian
-              University senior year students.n University senior year students.
+              Melalui kegiatan ini kami ingin menjadi wadah yang memberikan pengetahuan serta pemahaman lebih mengenai luasnya dunia desain dan industrinya. Kami juga ingin menjadi teman yang mendukung pecinta serta pejuang industri kreatif untuk tetap berjalan, bertahan, dan percaya pada setiap proses yang dijalaninya.
             </p>
           </div>
 
@@ -44,9 +38,7 @@ const Section1 = () => {
                 ke·la·na
               </h3>
               <p className="text-custom-white font-jakarta-sans font-light leading-tight lg:text-1lg lg:mb-16 xl:text-1xl xl:mb-24">
-                Makna kelana Lorem ipsum dolor sit amet, consectetur adipiscing
-                elit, sed do eiusmod tempor incididunt ut labore et dolore magna
-                aliqua. Ut enim ad minim veniam, quis nostrud
+                Secara harafiah kelana berarti &ldquo;perjalanan&rdquo; dan adiwarna berarti &ldquo;indah sekali&rdquo;. Sehingga kelana adiwarna memiliki makna, perjalanan yang indah.
               </p>
             </div>
           </div>
