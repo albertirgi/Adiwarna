@@ -1,5 +1,5 @@
 import { ChevronLeft, ChevronRight } from 'react-feather';
-import { useState } from 'react';
+import { useState, useEffect } from 'react';
 import PropTypes from 'prop-types';
 
 export default function CarouselMerch({ children: slides }) {
@@ -12,18 +12,17 @@ export default function CarouselMerch({ children: slides }) {
         setCurr((curr) => (curr == slides.length - 1 ? 0 : curr + 1));
     }
 
+    useEffect(() => {
+        const timer = setInterval(() => {
+          next();
+        }, 3000); // 3000ms = 3 seconds
+    
+        return () => clearInterval(timer); // Cleanup timer on component unmount
+      },);
     return (
         <div className="overflow-hidden relative">
             <div className="flex transition-transform ease-out duration-500"
                 style={{ transform: `translateX(-${curr * 100}% )` }}>{slides}</div>
-            <div className='absolute inset-0 flex items-center justify-between p-4'>
-                <button onClick={prev} className='p-1 rounded-full shadow bg-white-80 text-gray-800 hover:bg-white'>
-                    <ChevronLeft size={40} />
-                </button>
-                <button onClick={next} className='p-1 rounded-full shadow bg-white-80 text-gray-800 hover:bg-white'>
-                    <ChevronRight size={40} />
-                </button>
-            </div>
         </div>
     );
 }
