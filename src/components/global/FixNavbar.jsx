@@ -24,13 +24,10 @@ const FixNavbar = () => {
                   <a id="vote" href="#" className="rounded-md p-1 text-base font-bold text-gray-300 hover:text-white hover:scale-110 hover:cursor-pointer transition-transform duration-300 ease-in-out">
                     VOTE
                   </a>
-                  <a id="winner" href="#" className="rounded-md p-1 text-base font-bold text-gray-300 hover:text-white hover:scale-110 hover:cursor-pointer transition-transform duration-300 ease-in-out">
-                    WINNER
-                  </a>
                 </div>
               </div>
               <div>
-                <button type="button" className="relative inline-flex items-center justify-center rounded-md p-2 text-white hover:text-white hover:scale-110 hover:cursor-pointer transition-transform duration-300 ease-in-out" aria-controls="menu-dropdown" aria-expanded="false">
+                <button id="sidebar" type="button" className="relative inline-flex items-center justify-center rounded-md p-2 text-white hover:text-white hover:scale-110 hover:cursor-pointer transition-transform duration-300 ease-in-out" aria-controls="menu-dropdown" aria-expanded="false">
                   <svg className="block h-12 w-12" fill="none" viewBox="0 0 24 24" strokeWidth="2" stroke="currentColor" aria-hidden="true">
                     <path strokeLinecap="round" strokeLinejoin="round" d="M3.75 6.75h16.5M3.75 12h16.5m-16.5 5.25h16.5" />
                   </svg>
