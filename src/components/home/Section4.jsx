@@ -61,13 +61,18 @@ const Section4 = () => {
             </article>
           </div>
         </div>
-        <div
-          className="font-jakarta-sans text-custom-white justify-center item-center self-center italic font-bold text-center bg-custom-purple rounded-[72px] hover:bg-custom-yellow hover:text-custom-purple cursor-pointer transition-colors duration-500 hover:scale-110 hover:shadow-lg hover:cursor-pointer transition-transform duration-500 ease-in-out lg:px-7 lg:py-2 lg:mt-7 lg:text-2lg lg:mb-10 xl:px-9 xl:py-3 xl:mt-7 xl:text-2xl xl:mb-14"
-          tabIndex="0"
-          role="button"
-        >
-          <Link to="/category">more works</Link>
-        </div>
+        <div className="flex justify-center">
+  <Link to="/category">
+    <div
+      className="font-jakarta-sans text-custom-white justify-center item-center self-center italic font-bold text-center bg-custom-purple rounded-[72px] hover:bg-custom-yellow hover:text-custom-purple cursor-pointer transition-colors duration-500 hover:scale-110 hover:shadow-lg hover:cursor-pointer transition-transform duration-500 ease-in-out lg:px-7 lg:py-2 lg:mt-7 lg:text-2lg lg:mb-10 xl:px-9 xl:py-3 xl:mt-7 xl:text-2xl xl:mb-14 inline-block"
+      tabIndex="0"
+      role="button"
+    >
+      more works
+    </div>
+  </Link>
+</div>
+
       </div>
     </div>
   );
