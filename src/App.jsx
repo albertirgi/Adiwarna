@@ -16,6 +16,7 @@ import GD1 from "./components/works/graphic-design/GD1"
 import GD2 from "./components/works/graphic-design/GD2"
 import GD3 from "./components/works/graphic-design/GD3"
 import GD4 from "./components/works/graphic-design/GD4"
+import GD5 from "./components/works/graphic-design/GD5"
 
 
 function App() {
@@ -39,6 +40,7 @@ function App() {
         <Route path="/category/graphic-design/2" element={<GD2 /> }/>
         <Route path="/category/graphic-design/3" element={<GD3 /> }/>
         <Route path="/category/graphic-design/4" element={<GD4 /> }/>
+        <Route path="/category/graphic-design/5" element={<GD5 /> }/>
       </Routes>
     </>
   )

@@ -10,20 +10,20 @@ import GD31 from "../../../assets/images/works/graphicDesign/GD3/gd3-1.webp";
 import GD32 from "../../../assets/images/works/graphicDesign/GD3/gd3-2.webp";
 import GD41 from "../../../assets/images/works/graphicDesign/GD4/gd4-1.webp";
 import GD42 from "../../../assets/images/works/graphicDesign/GD4/gd4-2.webp";
-import GD51 from "../../../assets/images/works/graphicDesign/gd5-1.webp";
-import GD52 from "../../../assets/images/works/graphicDesign/gd5-2.webp";
-import GD61 from "../../../assets/images/works/graphicDesign/gd6-1.webp";
-import GD62 from "../../../assets/images/works/graphicDesign/gd6-2.webp";
-import GD71 from "../../../assets/images/works/graphicDesign/gd7-1.webp";
-import GD72 from "../../../assets/images/works/graphicDesign/gd7-2.webp";
-import GD81 from "../../../assets/images/works/graphicDesign/gd8-1.webp";
-import GD82 from "../../../assets/images/works/graphicDesign/gd8-2.webp";
-import GD91 from "../../../assets/images/works/graphicDesign/gd9-1.webp";
-import GD92 from "../../../assets/images/works/graphicDesign/gd9-2.webp";
-import GD101 from "../../../assets/images/works/graphicDesign/gd10-1.webp";
-import GD102 from "../../../assets/images/works/graphicDesign/gd10-2.webp";
-import GD111 from "../../../assets/images/works/graphicDesign/gd11-1.webp";
-import GD112 from "../../../assets/images/works/graphicDesign/gd11-2.webp";
+import GD51 from "../../../assets/images/works/graphicDesign/GD5/gd5-1.webp";
+import GD52 from "../../../assets/images/works/graphicDesign/GD5/gd5-2.webp";
+import GD61 from "../../../assets/images/works/graphicDesign/GD6/gd6-1.webp";
+import GD62 from "../../../assets/images/works/graphicDesign/GD6/gd6-2.webp";
+import GD71 from "../../../assets/images/works/graphicDesign/GD7/gd7-1.webp";
+import GD72 from "../../../assets/images/works/graphicDesign/GD7/gd7-2.webp";
+import GD81 from "../../../assets/images/works/graphicDesign/GD8/gd8-1.webp";
+import GD82 from "../../../assets/images/works/graphicDesign/GD8/gd8-2.webp";
+import GD91 from "../../../assets/images/works/graphicDesign/GD9/gd9-1.webp";
+import GD92 from "../../../assets/images/works/graphicDesign/GD9/gd9-2.webp";
+import GD101 from "../../../assets/images/works/graphicDesign/GD10/gd10-1.webp";
+import GD102 from "../../../assets/images/works/graphicDesign/GD10/gd10-2.webp";
+import GD111 from "../../../assets/images/works/graphicDesign/GD11/gd11-1.webp";
+import GD112 from "../../../assets/images/works/graphicDesign/GD11/gd11-2.webp";
 
 const GraphicDesign = () => {
   return (
@@ -107,14 +107,16 @@ const GraphicDesign = () => {
             </article>
             <article className="flex flex-col w-[33%] lg:mx-8 xl:mx-10 relative">
               <div className="flex flex-col grow text-custom-purple hover:cursor-pointer">
-                <img src={GD52} className="absolute w-full opacity-0 transition-opacity duration-300 hover:opacity-100" />
-                <img src={GD51} className="w-full" />
-                <h2 className="font-jakarta-sans font-semibold text-justify leading-tight lg:mt-2 lg:text-2lg xl:mt-3 xl:text-2xl">
-                  Ztrawberry
-                </h2>
-                <p className="font-caslon-condensed font-light italic lg:text-1lg lg:mt-1 xl:text-1xl xl:mt-2">
-                  Victoria Guitomo
-                </p>
+                <Link to="5">
+                  <img src={GD52} className="absolute w-full opacity-0 transition-opacity duration-300 hover:opacity-100" />
+                  <img src={GD51} className="w-full" />
+                  <h2 className="font-jakarta-sans font-semibold text-justify leading-tight lg:mt-2 lg:text-2lg xl:mt-3 xl:text-2xl">
+                    Ztrawberry
+                  </h2>
+                  <p className="font-caslon-condensed font-light italic lg:text-1lg lg:mt-1 xl:text-1xl xl:mt-2">
+                    Victoria Guitomo
+                  </p>
+                </Link>
               </div>
             </article>
             <article className="flex flex-col w-[33%] relative">
