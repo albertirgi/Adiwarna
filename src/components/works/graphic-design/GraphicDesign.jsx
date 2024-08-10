@@ -2,12 +2,12 @@ import { Link } from "react-router-dom";
 import FixNavbar from "../../global/FixNavbar";
 import Footer from "../../global/Footer";
 
-import GD11 from "../../../assets/images/works/graphicDesign/gd1-1.svg";
-import GD12 from "../../../assets/images/works/graphicDesign/gd1-2.svg";
-import GD21 from "../../../assets/images/works/graphicDesign/gd2-1.svg";
-import GD22 from "../../../assets/images/works/graphicDesign/gd2-2.svg";
-import GD31 from "../../../assets/images/works/graphicDesign/gd3-1.svg";
-import GD32 from "../../../assets/images/works/graphicDesign/gd3-2.svg";
+import GD11 from "../../../assets/images/works/graphicDesign/gd1-1.webp";
+import GD12 from "../../../assets/images/works/graphicDesign/gd1-2.webp";
+import GD21 from "../../../assets/images/works/graphicDesign/gd2-1.webp";
+import GD22 from "../../../assets/images/works/graphicDesign/gd2-2.webp";
+import GD31 from "../../../assets/images/works/graphicDesign/gd3-1.webp";
+import GD32 from "../../../assets/images/works/graphicDesign/gd3-2.webp";
 import GD41 from "../../../assets/images/works/graphicDesign/gd4-1.svg";
 import GD42 from "../../../assets/images/works/graphicDesign/gd4-2.svg";
 import GD51 from "../../../assets/images/works/graphicDesign/gd5-1.svg";
