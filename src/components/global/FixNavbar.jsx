@@ -11,10 +11,7 @@ const FixNavbar = () => {
 
   return (
     <div>
-      <nav
-        id="fix-navbar"
-        className="bg-custom-gray fixed top-0 z-30 w-full"
-      >
+      <nav id="fix-navbar" className="bg-custom-gray fixed top-0 z-30 w-full">
         <div className="px-16">
           <div className="relative">
             <div className="flex flex-1 items-center justify-between">
@@ -95,62 +92,69 @@ const FixNavbar = () => {
       </nav>
 
       {/* Sidebar menu */}
-      {sidebarOpen && (
-        <div className="fixed inset-0 bg-black bg-opacity-50 z-30" onClick={toggleSidebar}>
-          <div className="fixed top-0 right-0 w-80 h-full bg-black shadow-lg pt-4 pl-12 z-30 flex flex-col justify-between">
-            <div className="flex flex-col space-y-14">
-              <svg
-                className="h-10 w-10 text-gray-300 hover:text-white self-end mr-12 hover:cursor-pointer transition-transform duration-300 hover:scale-110 ease-in-out"
-                fill="none"
-                viewBox="0 0 24 24"
-                strokeWidth="2"
-                stroke="currentColor"
-                aria-hidden="true"
-                onClick={toggleSidebar}
-              >
-                <path
-                  strokeLinecap="round"
-                  strokeLinejoin="round"
-                  d="M6 18L18 6M6 6l12 12"
-                />
-              </svg>
-              <Link
-                to="/"
-                className="text-xl font-light text-gray-300 hover:text-white transition-transform duration-300 hover:scale-110 ease-in-out"
-                onClick={toggleSidebar}
-              >
-                About
-              </Link>
-              <Link
-                to="/merch"
-                className="text-xl font-light text-gray-300 hover:text-white transition-transform duration-300 hover:scale-110 ease-in-out"
-                onClick={toggleSidebar}
-              >
-                Merch
-              </Link>
-              <a
-                href="#"
-                className="text-xl font-light text-gray-300 hover:text-white transition-transform duration-300 hover:scale-110 ease-in-out"
-                onClick={toggleSidebar}
-              >
-                Upcoming Events
-              </a>
-              <a
-                href="#"
-                className="text-xl font-light text-gray-300 hover:text-white transition-transform duration-300 hover:scale-110 ease-in-out"
-                onClick={toggleSidebar}
-              >
-                Currated Works
-              </a>
-            </div>
-            <div className="mb-10">
-            <div className="border-t border-white mr-12 justify-center mb-6"></div>
-            <img className="w-24" src={LogoAdiwarnaKelana} />
-            </div>
-          </div>
+      <div
+        className={`fixed top-0 right-0 w-80 h-full bg-black shadow-lg pt-4 pl-12 z-30 flex flex-col justify-between transform transition-transform duration-300 ease-in-out ${
+          sidebarOpen ? "translate-x-0" : "translate-x-full"
+        }`}
+      >
+        <div className="flex flex-col space-y-14">
+          <svg
+            className="h-10 w-10 text-gray-300 hover:text-white self-end mr-12 hover:cursor-pointer transition-transform duration-300 ease-in-out hover:scale-105"
+            fill="none"
+            viewBox="0 0 24 24"
+            strokeWidth="2"
+            stroke="currentColor"
+            aria-hidden="true"
+            onClick={toggleSidebar}
+          >
+            <path
+              strokeLinecap="round"
+              strokeLinejoin="round"
+              d="M6 18L18 6M6 6l12 12"
+            />
+          </svg>
+          <Link
+            to="/"
+            className="text-xl font-light text-gray-300 hover:font-semibold hover:text-white transition-all duration-300 ease-in-out hover:scale-105"
+            onClick={toggleSidebar}
+          >
+            About
+          </Link>
+          <Link
+            to="/merch"
+            className="text-xl font-light text-gray-300 hover:font-semibold hover:text-white transition-all duration-300 ease-in-out hover:scale-105"
+            onClick={toggleSidebar}
+          >
+            Merch
+          </Link>
+          <a
+            href="/event"
+            className="text-xl font-light text-gray-300 hover:font-semibold hover:text-white transition-all duration-300 ease-in-out hover:scale-105"
+            onClick={toggleSidebar}
+          >
+            Upcoming Events
+          </a>
+          <a
+            href="/category"
+            className="text-xl font-light text-gray-300 hover:font-semibold hover:text-white transition-all duration-300 ease-in-out hover:scale-105"
+            onClick={toggleSidebar}
+          >
+            Curated Works
+          </a>
         </div>
-      )}
+        <div className="mb-10">
+          <div className="border-t border-white mr-12 justify-center mb-6"></div>
+          <img className="w-24" src={LogoAdiwarnaKelana} />
+        </div>
+      </div>
 
+      {/* Overlay */}
+      <div
+        className={`fixed inset-0 bg-black transition-opacity duration-300 ease-in-out z-20 ${
+          sidebarOpen ? "opacity-50" : "opacity-0 pointer-events-none"
+        }`}
+        onClick={toggleSidebar}
+      />
     </div>
   );
 };

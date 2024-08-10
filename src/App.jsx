@@ -11,11 +11,13 @@ import Event from "./components/event/Event"
 import EventDetail from "./components/event/EventDetail"
 import Merch from "./components/merch/Merch"
 import MerchDetail from "./components/merch/MerchDetail"
+import ScrollToTop from "./components/global/ScrollToTop"
 
 
 function App() {
   return (
     <>
+    <ScrollToTop />
       <Routes>
         <Route path="/" element={<Home />} />
         <Route path="/category" element={<Category />} />
