@@ -1,6 +1,6 @@
 import Carousel from "./Carousel";
-import Merch1 from "../../assets/images/merch-1.png";
-import Merch2 from "../../assets/images/merch-2.png";
+import Merch1 from "../../assets/images/merch-1.webp";
+import Merch2 from "../../assets/images/merch-2.webp";
 import { Link } from "react-router-dom";
 
 const Section5 = () => {

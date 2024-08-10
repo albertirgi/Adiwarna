@@ -1,9 +1,9 @@
-import Event1 from "../../assets/images/poster/poster-event-1.svg";
-import Event2 from "../../assets/images/poster/poster-event-2.svg";
-import Event3 from "../../assets/images/poster/poster-event-3.svg";
-import Event4 from "../../assets/images/poster/poster-event-4.svg";
-import Event5 from "../../assets/images/poster/poster-event-5.svg";
-import Event6 from "../../assets/images/poster/poster-event-6.svg";
+import Event1 from "../../assets/images/poster/poster-event-1.webp";
+import Event2 from "../../assets/images/poster/poster-event-2.webp";
+import Event3 from "../../assets/images/poster/poster-event-3.webp";
+import Event4 from "../../assets/images/poster/poster-event-4.webp";
+import Event5 from "../../assets/images/poster/poster-event-5.webp";
+import Event6 from "../../assets/images/poster/poster-event-6.webp";
 const shirt = Object.values(import.meta.glob("../../assets/images/merch/shirt/*.{png,jpg,jpeg,svg,PNG,webp}", { eager: true, query: "url" }));
 const curratedBook = Object.values(import.meta.glob("../../assets/images/merch/currated-book/*.{png,jpg,jpeg,svg,PNG,webp}", { eager: true, query: "url" }));
 const enamelPin = Object.values(import.meta.glob("../../assets/images/merch/enamel-pin/*.{png,jpg,jpeg,svg,PNG,webp}", { eager: true, query: "url" }));

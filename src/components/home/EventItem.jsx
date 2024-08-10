@@ -18,7 +18,7 @@ const EventItem = ({ id, img, name, desc, date }) => {
   }, []);
   return (
     <div className="flex flex-col w-fit">
-      <div className="h-fit relative w-full hover:scale-105 transition-all duration-300 ease-in-out object-fill event-image">
+      <div className="h-fit relative w-full transition-all duration-300 ease-in-out object-fill event-image">
         <img src={img} className="w-full h-full"></img>
         <div ref={eventImageRef} className="link-overlay hover:cursor-pointer w-full h-full absolute inset-0 flex items-center justify-center bg-black/50 opacity-0 transition-opacity hover:opacity-100 duration-300 ease-in-out">
           <Link to={href} className="link text-center text-custom-white lg:text-[16px] xl:text-[20px]">

@@ -1,4 +1,4 @@
-import Section1Pic from "../../assets/images/pic-section1.svg";
+import Section1Pic from "../../assets/images/pic-section1.webp";
 
 const Section1 = () => {
   return (
