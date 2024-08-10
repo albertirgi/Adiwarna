@@ -4,11 +4,11 @@ import FixNavbar from "../global/FixNavbar";
 import Footer from "../global/Footer";
 import Dot from "../../assets/images/dot.svg";
 
-import Thesis from "../../assets/images/thesis-image.svg"
-import Campaign from "../../assets/images/campaign-image.svg"
-import Brand from "../../assets/images/brand-image.svg"
-import Graphic from "../../assets/images/graphic-image.svg"
-import Digital from "../../assets/images/digital-image.svg"
+import Thesis from "../../assets/images/works/thesis-image.svg"
+import Campaign from "../../assets/images/works/campaign-image.svg"
+import Brand from "../../assets/images/works/brand-image.svg"
+import Graphic from "../../assets/images/works/graphic-image.svg"
+import Digital from "../../assets/images/works/digital-image.svg"
 
 const Category = () => {
   useEffect(() => {
