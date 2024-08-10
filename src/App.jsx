@@ -12,6 +12,10 @@ import EventDetail from "./components/event/EventDetail"
 import Merch from "./components/merch/Merch"
 import MerchDetail from "./components/merch/MerchDetail"
 import ScrollToTop from "./components/global/ScrollToTop"
+import GD1 from "./components/works/graphic-design/GD1"
+import GD2 from "./components/works/graphic-design/GD2"
+import GD3 from "./components/works/graphic-design/GD3"
+import GD4 from "./components/works/graphic-design/GD4"
 
 
 function App() {
@@ -31,6 +35,10 @@ function App() {
         <Route path="/event/:id" element={<EventDetail />} />
         <Route path="/merch" element={<Merch/>}/>
         <Route path="/merch/:id" element={<MerchDetail/>}/>
+        <Route path="/category/graphic-design/1" element={<GD1 /> }/>
+        <Route path="/category/graphic-design/2" element={<GD2 /> }/>
+        <Route path="/category/graphic-design/3" element={<GD3 /> }/>
+        <Route path="/category/graphic-design/4" element={<GD4 /> }/>
       </Routes>
     </>
   )

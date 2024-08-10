@@ -2,14 +2,14 @@ import { Link } from "react-router-dom";
 import FixNavbar from "../../global/FixNavbar";
 import Footer from "../../global/Footer";
 
-import GD11 from "../../../assets/images/works/graphicDesign/gd1-1.webp";
-import GD12 from "../../../assets/images/works/graphicDesign/gd1-2.webp";
-import GD21 from "../../../assets/images/works/graphicDesign/gd2-1.webp";
-import GD22 from "../../../assets/images/works/graphicDesign/gd2-2.webp";
-import GD31 from "../../../assets/images/works/graphicDesign/gd3-1.webp";
-import GD32 from "../../../assets/images/works/graphicDesign/gd3-2.webp";
-import GD41 from "../../../assets/images/works/graphicDesign/gd4-1.webp";
-import GD42 from "../../../assets/images/works/graphicDesign/gd4-2.webp";
+import GD11 from "../../../assets/images/works/graphicDesign/GD1/gd1-1.webp";
+import GD12 from "../../../assets/images/works/graphicDesign/GD1/gd1-2.webp";
+import GD21 from "../../../assets/images/works/graphicDesign/GD2/gd2-1.webp";
+import GD22 from "../../../assets/images/works/graphicDesign/GD2/gd2-2.webp";
+import GD31 from "../../../assets/images/works/graphicDesign/GD3/gd3-1.webp";
+import GD32 from "../../../assets/images/works/graphicDesign/GD3/gd3-2.webp";
+import GD41 from "../../../assets/images/works/graphicDesign/GD4/gd4-1.webp";
+import GD42 from "../../../assets/images/works/graphicDesign/GD4/gd4-2.webp";
 import GD51 from "../../../assets/images/works/graphicDesign/gd5-1.webp";
 import GD52 from "../../../assets/images/works/graphicDesign/gd5-2.webp";
 import GD61 from "../../../assets/images/works/graphicDesign/gd6-1.webp";
@@ -49,52 +49,60 @@ const GraphicDesign = () => {
           <div className="flex mt-10">
             <article className="flex flex-col w-[33%] relative">
               <div className="flex flex-col grow text-custom-purple hover:cursor-pointer">
-                <img src={GD12} className="absolute w-full opacity-0 transition-opacity duration-300 hover:opacity-100" />
-                <img src={GD11} className="w-full" />
-                <h2 className="font-jakarta-sans font-semibold text-justify leading-tight lg:mt-2 lg:text-2lg xl:mt-3 xl:text-2xl">
-                  Amborasa
-                </h2>
-                <p className="font-caslon-condensed font-light italic lg:text-1lg lg:mt-1 xl:text-1xl xl:mt-2">
-                  Fiorella Chelsea
-                </p>
+                <Link to="1">
+                  <img src={GD12} className="absolute w-full opacity-0 transition-opacity duration-300 hover:opacity-100" />
+                  <img src={GD11} className="w-full" />
+                  <h2 className="font-jakarta-sans font-semibold text-justify leading-tight lg:mt-2 lg:text-2lg xl:mt-3 xl:text-2xl">
+                    Amborasa
+                  </h2>
+                  <p className="font-caslon-condensed font-light italic lg:text-1lg lg:mt-1 xl:text-1xl xl:mt-2">
+                    Fiorella Chelsea
+                  </p>
+                </Link>
               </div>
             </article>
             <article className="flex flex-col w-[33%] lg:mx-8 xl:mx-10 relative">
               <div className="flex flex-col grow text-custom-purple hover:cursor-pointer">
-                <img src={GD22} className="absolute w-full opacity-0 transition-opacity duration-300 hover:opacity-100" />
-                <img src={GD21} className="w-full" />
-                <h2 className="font-jakarta-sans font-semibold text-justify leading-tight lg:mt-2 lg:text-2lg xl:mt-3 xl:text-2xl">
-                  HikeIndo
-                </h2>
-                <p className="font-caslon-condensed font-light italic lg:text-1lg lg:mt-1 xl:text-1xl xl:mt-2">
-                  Natasha Wisheilla
-                </p>
+                <Link to="2">
+                  <img src={GD22} className="absolute w-full opacity-0 transition-opacity duration-300 hover:opacity-100" />
+                  <img src={GD21} className="w-full" />
+                  <h2 className="font-jakarta-sans font-semibold text-justify leading-tight lg:mt-2 lg:text-2lg xl:mt-3 xl:text-2xl">
+                    HikeIndo
+                  </h2>
+                  <p className="font-caslon-condensed font-light italic lg:text-1lg lg:mt-1 xl:text-1xl xl:mt-2">
+                    Natasha Wisheilla
+                  </p>
+                </Link>
               </div>
             </article>
             <article className="flex flex-col w-[33%] relative">
               <div className="flex flex-col grow text-custom-purple hover:cursor-pointer">
-                <img src={GD32} className="absolute w-full opacity-0 transition-opacity duration-300 hover:opacity-100" />
-                <img src={GD31} className="w-full" />
-                <h2 className="font-jakarta-sans font-semibold text-justify leading-tight lg:mt-2 lg:text-2lg xl:mt-3 xl:text-2xl">
-                  Mayatra
-                </h2>
-                <p className="font-caslon-condensed font-light italic lg:text-1lg lg:mt-1 xl:text-1xl xl:mt-2">
-                  Vannessa Jeane Ananthalia
-                </p>
+                <Link to="3">
+                  <img src={GD32} className="absolute w-full opacity-0 transition-opacity duration-300 hover:opacity-100" />
+                  <img src={GD31} className="w-full" />
+                  <h2 className="font-jakarta-sans font-semibold text-justify leading-tight lg:mt-2 lg:text-2lg xl:mt-3 xl:text-2xl">
+                    Mayatra
+                  </h2>
+                  <p className="font-caslon-condensed font-light italic lg:text-1lg lg:mt-1 xl:text-1xl xl:mt-2">
+                    Vannessa Jeane Ananthalia
+                  </p>
+                </Link>
               </div>
             </article>
           </div>
           <div className="flex mt-10">
             <article className="flex flex-col w-[33%] relative">
               <div className="flex flex-col grow text-custom-purple hover:cursor-pointer">
-                <img src={GD42} className="absolute w-full opacity-0 transition-opacity duration-300 hover:opacity-100" />
-                <img src={GD41} className="w-full" />
-                <h2 className="font-jakarta-sans font-semibold text-justify leading-tight lg:mt-2 lg:text-2lg xl:mt-3 xl:text-2xl">
-                  Akgeni
-                </h2>
-                <p className="font-caslon-condensed font-light italic lg:text-1lg lg:mt-1 xl:text-1xl xl:mt-2">
-                  Michelle Jennifer
-                </p>
+                <Link to="4">
+                  <img src={GD42} className="absolute w-full opacity-0 transition-opacity duration-300 hover:opacity-100" />
+                  <img src={GD41} className="w-full" />
+                  <h2 className="font-jakarta-sans font-semibold text-justify leading-tight lg:mt-2 lg:text-2lg xl:mt-3 xl:text-2xl">
+                    Akgeni
+                  </h2>
+                  <p className="font-caslon-condensed font-light italic lg:text-1lg lg:mt-1 xl:text-1xl xl:mt-2">
+                    Michelle Jennifer
+                  </p>
+                </Link>
               </div>
             </article>
             <article className="flex flex-col w-[33%] lg:mx-8 xl:mx-10 relative">
@@ -166,10 +174,10 @@ const GraphicDesign = () => {
                 <img src={GD102} className="absolute w-full opacity-0 transition-opacity duration-300 hover:opacity-100" />
                 <img src={GD101} className="w-full" />
                 <h2 className="font-jakarta-sans font-semibold text-justify leading-tight lg:mt-2 lg:text-2lg xl:mt-3 xl:text-2xl">
-                Nettika
+                  Nettika
                 </h2>
                 <p className="font-caslon-condensed font-light italic lg:text-1lg lg:mt-1 xl:text-1xl xl:mt-2">
-                Shannon Soen Ying Zhen
+                  Shannon Soen Ying Zhen
                 </p>
               </div>
             </article>
@@ -178,10 +186,10 @@ const GraphicDesign = () => {
                 <img src={GD112} className="absolute w-full opacity-0 transition-opacity duration-300 hover:opacity-100" />
                 <img src={GD111} className="w-full" />
                 <h2 className="font-jakarta-sans font-semibold text-justify leading-tight lg:mt-2 lg:text-2lg xl:mt-3 xl:text-2xl">
-                Saktisangraha
+                  Saktisangraha
                 </h2>
                 <p className="font-caslon-condensed font-light italic lg:text-1lg lg:mt-1 xl:text-1xl xl:mt-2">
-                Miguel Vicenzo
+                  Miguel Vicenzo
                 </p>
               </div>
             </article>

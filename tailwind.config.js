@@ -14,6 +14,7 @@ export default {
         "caslon-display": ["Libre Caslon Display", "serif"],
         "caslon-text": ["Libre Caslon Text", "serif"],
         "jakarta-sans": ["Plus Jakarta Sans", "sans-serif"],
+        "inter": ["Inter", "sans-serif"],
       },
       fontSize: {
         "1xl": "1.06em",
