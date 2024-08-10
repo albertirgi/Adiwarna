@@ -8,22 +8,22 @@ import GD21 from "../../../assets/images/works/graphicDesign/gd2-1.webp";
 import GD22 from "../../../assets/images/works/graphicDesign/gd2-2.webp";
 import GD31 from "../../../assets/images/works/graphicDesign/gd3-1.webp";
 import GD32 from "../../../assets/images/works/graphicDesign/gd3-2.webp";
-import GD41 from "../../../assets/images/works/graphicDesign/gd4-1.svg";
-import GD42 from "../../../assets/images/works/graphicDesign/gd4-2.svg";
-import GD51 from "../../../assets/images/works/graphicDesign/gd5-1.svg";
-import GD52 from "../../../assets/images/works/graphicDesign/gd5-2.svg";
-import GD61 from "../../../assets/images/works/graphicDesign/gd6-1.svg";
-import GD62 from "../../../assets/images/works/graphicDesign/gd6-2.svg";
-import GD71 from "../../../assets/images/works/graphicDesign/gd7-1.svg";
-import GD72 from "../../../assets/images/works/graphicDesign/gd7-2.svg";
-import GD81 from "../../../assets/images/works/graphicDesign/gd8-1.svg";
-import GD82 from "../../../assets/images/works/graphicDesign/gd8-2.svg";
-import GD91 from "../../../assets/images/works/graphicDesign/gd9-1.svg";
-import GD92 from "../../../assets/images/works/graphicDesign/gd9-2.svg";
-import GD101 from "../../../assets/images/works/graphicDesign/gd10-1.svg";
-import GD102 from "../../../assets/images/works/graphicDesign/gd10-2.svg";
-import GD111 from "../../../assets/images/works/graphicDesign/gd11-1.svg";
-import GD112 from "../../../assets/images/works/graphicDesign/gd11-2.svg";
+import GD41 from "../../../assets/images/works/graphicDesign/gd4-1.webp";
+import GD42 from "../../../assets/images/works/graphicDesign/gd4-2.webp";
+import GD51 from "../../../assets/images/works/graphicDesign/gd5-1.webp";
+import GD52 from "../../../assets/images/works/graphicDesign/gd5-2.webp";
+import GD61 from "../../../assets/images/works/graphicDesign/gd6-1.webp";
+import GD62 from "../../../assets/images/works/graphicDesign/gd6-2.webp";
+import GD71 from "../../../assets/images/works/graphicDesign/gd7-1.webp";
+import GD72 from "../../../assets/images/works/graphicDesign/gd7-2.webp";
+import GD81 from "../../../assets/images/works/graphicDesign/gd8-1.webp";
+import GD82 from "../../../assets/images/works/graphicDesign/gd8-2.webp";
+import GD91 from "../../../assets/images/works/graphicDesign/gd9-1.webp";
+import GD92 from "../../../assets/images/works/graphicDesign/gd9-2.webp";
+import GD101 from "../../../assets/images/works/graphicDesign/gd10-1.webp";
+import GD102 from "../../../assets/images/works/graphicDesign/gd10-2.webp";
+import GD111 from "../../../assets/images/works/graphicDesign/gd11-1.webp";
+import GD112 from "../../../assets/images/works/graphicDesign/gd11-2.webp";
 
 const GraphicDesign = () => {
   return (
