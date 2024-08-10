@@ -2,26 +2,26 @@ import { Link } from "react-router-dom";
 import FixNavbar from "../../global/FixNavbar";
 import Footer from "../../global/Footer";
 
-import T11 from "../../../assets/images/works/thesis/t1-1.svg";
-import T12 from "../../../assets/images/works/thesis/t1-2.svg";
-import T21 from "../../../assets/images/works/thesis/t2-1.svg";
-import T22 from "../../../assets/images/works/thesis/t2-2.svg";
-import T31 from "../../../assets/images/works/thesis/t3-1.svg";
-import T32 from "../../../assets/images/works/thesis/t3-2.svg";
-import T41 from "../../../assets/images/works/thesis/t4-1.svg";
-import T42 from "../../../assets/images/works/thesis/t4-2.svg";
-import T51 from "../../../assets/images/works/thesis/t5-1.svg";
-import T52 from "../../../assets/images/works/thesis/t5-2.svg";
-import T61 from "../../../assets/images/works/thesis/t6-1.svg";
-import T62 from "../../../assets/images/works/thesis/t6-2.svg";
-import T71 from "../../../assets/images/works/thesis/t7-1.svg";
-import T72 from "../../../assets/images/works/thesis/t7-2.svg";
-import T81 from "../../../assets/images/works/thesis/t8-1.svg";
-import T82 from "../../../assets/images/works/thesis/t8-2.svg";
-import T91 from "../../../assets/images/works/thesis/t9-1.svg";
-import T92 from "../../../assets/images/works/thesis/t9-2.svg";
-import T101 from "../../../assets/images/works/thesis/t10-1.svg";
-import T102 from "../../../assets/images/works/thesis/t10-2.svg";
+import T11 from "../../../assets/images/works/thesis/t1-1.webp";
+import T12 from "../../../assets/images/works/thesis/t1-2.webp";
+import T21 from "../../../assets/images/works/thesis/t2-1.webp";
+import T22 from "../../../assets/images/works/thesis/t2-2.webp";
+import T31 from "../../../assets/images/works/thesis/t3-1.webp";
+import T32 from "../../../assets/images/works/thesis/t3-2.webp";
+import T41 from "../../../assets/images/works/thesis/t4-1.webp";
+import T42 from "../../../assets/images/works/thesis/t4-2.webp";
+import T51 from "../../../assets/images/works/thesis/t5-1.webp";
+import T52 from "../../../assets/images/works/thesis/t5-2.webp";
+import T61 from "../../../assets/images/works/thesis/t6-1.webp";
+import T62 from "../../../assets/images/works/thesis/t6-2.webp";
+import T71 from "../../../assets/images/works/thesis/t7-1.webp";
+import T72 from "../../../assets/images/works/thesis/t7-2.webp";
+import T81 from "../../../assets/images/works/thesis/t8-1.webp";
+import T82 from "../../../assets/images/works/thesis/t8-2.webp";
+import T91 from "../../../assets/images/works/thesis/t9-1.webp";
+import T92 from "../../../assets/images/works/thesis/t9-2.webp";
+import T101 from "../../../assets/images/works/thesis/t10-1.webp";
+import T102 from "../../../assets/images/works/thesis/t10-2.webp";
 
 const Thesis = () => {
   return (
