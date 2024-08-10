@@ -171,16 +171,8 @@ const Thesis = () => {
                 </p>
               </div>
             </article>
-            <article className="flex flex-col w-[33%] lg:mx-8 xl:mx-10 relative">
-            <div className="flex flex-col grow text-custom-purple">
-                <img src={T91} className="w-full opacity-0" />
-              </div>
-            </article>
-            <article className="flex flex-col w-[33%] relative">
-              <div className="flex flex-col grow text-custom-purple">
-                <img src={T91} className="w-full opacity-0" />
-              </div>
-            </article>
+            <article className="flex flex-col w-[33%] lg:mx-8 xl:mx-10 relative"></article>
+            <article className="flex flex-col w-[33%] relative"></article>
           </div>
         </div>
       </div>
