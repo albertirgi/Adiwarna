@@ -2,7 +2,7 @@ import Section1Pic from "../../assets/images/pic-section1.webp";
 
 const Section1 = () => {
   return (
-    <div className="bg-1 bg-no-repeat bg-cover">
+    <div id="about" className="bg-1 bg-no-repeat bg-cover">
       <div className="flex relative flex-col w-full mx-auto lg:max-w-[760px] lg:pt-20 xl:max-w-[1070px] xl:pt-32">
         <h1 className="text-custom-white font-jakarta-sans font-bold items-start lg:text-4lg xl:text-4xl">
           tentang

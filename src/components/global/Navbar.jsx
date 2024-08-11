@@ -116,9 +116,17 @@ const Navbar = () => {
             />
           </svg>
           <Link
-            to="/"
+            to="#"
+            onClick={(e) => {
+              e.preventDefault();
+              const aboutSection = document.getElementById('about');
+              const yOffset = 0;
+              const y = aboutSection.getBoundingClientRect().top + window.pageYOffset + yOffset;
+
+              window.scrollTo({ top: y, behavior: 'smooth' });
+              toggleSidebar();
+            }}
             className="text-xl font-light text-gray-300 hover:font-semibold hover:text-white transition-all duration-300 ease-in-out hover:scale-105"
-            onClick={toggleSidebar}
           >
             About
           </Link>
