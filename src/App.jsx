@@ -17,7 +17,12 @@ import GD2 from "./components/works/graphic-design/GD2"
 import GD3 from "./components/works/graphic-design/GD3"
 import GD4 from "./components/works/graphic-design/GD4"
 import GD5 from "./components/works/graphic-design/GD5"
-
+import GD6 from "./components/works/graphic-design/GD6"
+import GD7 from "./components/works/graphic-design/GD7"
+import GD8 from "./components/works/graphic-design/GD8"
+import GD9 from "./components/works/graphic-design/GD9"
+import GD10 from "./components/works/graphic-design/GD10"
+import GD11 from "./components/works/graphic-design/GD11"
 
 function App() {
   return (
@@ -41,6 +46,12 @@ function App() {
         <Route path="/category/graphic-design/3" element={<GD3 /> }/>
         <Route path="/category/graphic-design/4" element={<GD4 /> }/>
         <Route path="/category/graphic-design/5" element={<GD5 /> }/>
+        <Route path="/category/graphic-design/6" element={<GD6 /> }/>
+        <Route path="/category/graphic-design/7" element={<GD7 /> }/>
+        <Route path="/category/graphic-design/8" element={<GD8 /> }/>
+        <Route path="/category/graphic-design/9" element={<GD9 /> }/>
+        <Route path="/category/graphic-design/10" element={<GD10 /> }/>
+        <Route path="/category/graphic-design/11" element={<GD11 /> }/>
       </Routes>
     </>
   )

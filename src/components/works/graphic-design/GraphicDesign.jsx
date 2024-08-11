@@ -121,44 +121,51 @@ const GraphicDesign = () => {
             </article>
             <article className="flex flex-col w-[33%] relative">
               <div className="flex flex-col grow text-custom-purple hover:cursor-pointer">
-                <img src={GD62} className="absolute w-full opacity-0 transition-opacity duration-300 hover:opacity-100" />
-                <img src={GD61} className="w-full" />
-                <h2 className="font-jakarta-sans font-semibold text-justify leading-tight lg:mt-2 lg:text-2lg xl:mt-3 xl:text-2xl">
-                  Jeanny’s Bakehuis.
-                </h2>
-                <p className="font-caslon-condensed font-light italic lg:text-1lg lg:mt-1 xl:text-1xl xl:mt-2">
-                  Stefanna Shiva
-                </p>
+                <Link to="6">
+                  <img src={GD62} className="absolute w-full opacity-0 transition-opacity duration-300 hover:opacity-100" />
+                  <img src={GD61} className="w-full" />
+                  <h2 className="font-jakarta-sans font-semibold text-justify leading-tight lg:mt-2 lg:text-2lg xl:mt-3 xl:text-2xl">
+                    Jeanny’s Bakehuis.
+                  </h2>
+                  <p className="font-caslon-condensed font-light italic lg:text-1lg lg:mt-1 xl:text-1xl xl:mt-2">
+                    Stefanna Shiva
+                  </p>
+                </Link>
               </div>
             </article>
           </div>
           <div className="flex mt-10">
             <article className="flex flex-col w-[33%] relative">
               <div className="flex flex-col grow text-custom-purple hover:cursor-pointer">
-                <img src={GD72} className="absolute w-full opacity-0 transition-opacity duration-300 hover:opacity-100" />
-                <img src={GD71} className="w-full" />
-                <h2 className="font-jakarta-sans font-semibold text-justify leading-tight lg:mt-2 lg:text-2lg xl:mt-3 xl:text-2xl">
-                  10.11.45
-                </h2>
-                <p className="font-caslon-condensed font-light italic lg:text-1lg lg:mt-1 xl:text-1xl xl:mt-2">
-                  Celine Nadia Marchiella
-                </p>
+                <Link to="7">
+                  <img src={GD72} className="absolute w-full opacity-0 transition-opacity duration-300 hover:opacity-100" />
+                  <img src={GD71} className="w-full" />
+                  <h2 className="font-jakarta-sans font-semibold text-justify leading-tight lg:mt-2 lg:text-2lg xl:mt-3 xl:text-2xl">
+                    10.11.45
+                  </h2>
+                  <p className="font-caslon-condensed font-light italic lg:text-1lg lg:mt-1 xl:text-1xl xl:mt-2">
+                    Celine Nadia Marchiella
+                  </p>
+                </Link>
               </div>
             </article>
             <article className="flex flex-col w-[33%] lg:mx-8 xl:mx-10 relative">
               <div className="flex flex-col grow text-custom-purple hover:cursor-pointer">
-                <img src={GD82} className="absolute w-full opacity-0 transition-opacity duration-300 hover:opacity-100" />
-                <img src={GD81} className="w-full" />
-                <h2 className="font-jakarta-sans font-semibold text-justify leading-tight lg:mt-2 lg:text-2lg xl:mt-3 xl:text-2xl">
-                  Path Kindness
-                </h2>
-                <p className="font-caslon-condensed font-light italic lg:text-1lg lg:mt-1 xl:text-1xl xl:mt-2">
-                  Jacqueline Jillian
-                </p>
+                <Link to="8">
+                  <img src={GD82} className="absolute w-full opacity-0 transition-opacity duration-300 hover:opacity-100" />
+                  <img src={GD81} className="w-full" />
+                  <h2 className="font-jakarta-sans font-semibold text-justify leading-tight lg:mt-2 lg:text-2lg xl:mt-3 xl:text-2xl">
+                    Path Kindness
+                  </h2>
+                  <p className="font-caslon-condensed font-light italic lg:text-1lg lg:mt-1 xl:text-1xl xl:mt-2">
+                    Jacqueline Jillian
+                  </p>
+                </Link>
               </div>
             </article>
             <article className="flex flex-col w-[33%] relative">
               <div className="flex flex-col grow text-custom-purple hover:cursor-pointer">
+                <Link to="9">
                 <img src={GD92} className="absolute w-full opacity-0 transition-opacity duration-300 hover:opacity-100" />
                 <img src={GD91} className="w-full" />
                 <h2 className="font-jakarta-sans font-semibold text-justify leading-tight lg:mt-2 lg:text-2lg xl:mt-3 xl:text-2xl">
@@ -167,12 +174,14 @@ const GraphicDesign = () => {
                 <p className="font-caslon-condensed font-light italic lg:text-1lg lg:mt-1 xl:text-1xl xl:mt-2">
                   Stefani
                 </p>
+                </Link>
               </div>
             </article>
           </div>
           <div className="flex mt-10 mb-40">
             <article className="flex flex-col w-[33%] relative">
               <div className="flex flex-col grow text-custom-purple hover:cursor-pointer">
+                <Link to="10">
                 <img src={GD102} className="absolute w-full opacity-0 transition-opacity duration-300 hover:opacity-100" />
                 <img src={GD101} className="w-full" />
                 <h2 className="font-jakarta-sans font-semibold text-justify leading-tight lg:mt-2 lg:text-2lg xl:mt-3 xl:text-2xl">
@@ -181,10 +190,12 @@ const GraphicDesign = () => {
                 <p className="font-caslon-condensed font-light italic lg:text-1lg lg:mt-1 xl:text-1xl xl:mt-2">
                   Shannon Soen Ying Zhen
                 </p>
+                </Link>
               </div>
             </article>
             <article className="flex flex-col w-[33%] lg:mx-8 xl:mx-10 relative">
               <div className="flex flex-col grow text-custom-purple hover:cursor-pointer">
+                <Link to="11">
                 <img src={GD112} className="absolute w-full opacity-0 transition-opacity duration-300 hover:opacity-100" />
                 <img src={GD111} className="w-full" />
                 <h2 className="font-jakarta-sans font-semibold text-justify leading-tight lg:mt-2 lg:text-2lg xl:mt-3 xl:text-2xl">
@@ -193,6 +204,7 @@ const GraphicDesign = () => {
                 <p className="font-caslon-condensed font-light italic lg:text-1lg lg:mt-1 xl:text-1xl xl:mt-2">
                   Miguel Vicenzo
                 </p>
+                </Link>
               </div>
             </article>
             <article className="flex flex-col w-[33%] relative"></article>
