@@ -1,5 +1,5 @@
-import works11 from "../../assets/images/works/thesis/t4-1.webp";
-import works12 from "../../assets/images/works/thesis/t4-2.webp";
+import works11 from "../../assets/images/works/thesis/T4/t4-1.webp";
+import works12 from "../../assets/images/works/thesis/T4/t4-2.webp";
 import works21 from "../../assets/images/works/brandProduct/bnp6-1.webp";
 import works22 from "../../assets/images/works/brandProduct/bnp6-2.webp";
 import works31 from "../../assets/images/works/digitalMedia/dm4-1.webp";
