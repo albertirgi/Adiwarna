@@ -32,6 +32,7 @@ import T7 from "./components/works/thesis/T7"
 import T8 from "./components/works/thesis/T8"
 import T9 from "./components/works/thesis/T9"
 import T10 from "./components/works/thesis/T10"
+import BP1 from "./components/works/brand-and-product-innovation/BP1"
 
 function App() {
   return (
@@ -70,6 +71,7 @@ function App() {
         <Route path="/category/thesis/8" element={<T8 />} />
         <Route path="/category/thesis/9" element={<T9 />} />
         <Route path="/category/thesis/10" element={<T10 />} />
+        <Route path="/category/brand-and-product-innovation/1" element={<BP1 />} />
       </Routes>
     </>
   )
