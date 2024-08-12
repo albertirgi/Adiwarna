@@ -45,7 +45,7 @@ const EventDetail = () => {
               </div>
             </div>
           </div>
-          <Link to="/event" className="font-bold text-custom-white text-[24px] text-end hover:cursor-pointer hover:underline decoration-1 underline-offset-4 mb-12">
+          <Link to="/event" className="font-bold text-custom-white text-[24px] text-end hover:cursor-pointer underline decoration-1 underline-offset-4 mb-12">
             more events
           </Link>
         </div>

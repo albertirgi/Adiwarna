@@ -30,9 +30,9 @@ const GD2 = () => {
                 </Link>
               </div>
               <div>
-                <span className="italic font-caslon-condensed text-custom-purple">
-                  Graphic Design
-                </span>
+              <Link to="/category/graphic-design">
+                  <span className="italic font-caslon-condensed text-custom-purple">Graphic Design</span>
+                </Link>
               </div>
             </div>
           </div>

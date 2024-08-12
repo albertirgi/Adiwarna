@@ -22,59 +22,46 @@ const GD7 = () => {
             <div className="flex flex-1 items-center justify-between">
               <div>
                 <Link to="/category">
-                  <span className="font-medium font-jakarta-sans text-custom-purple lg:mr-1 xl:mr-2">
-                    currated
-                  </span>
-                  <span className="italic font-medium font-caslon-condensed text-custom-purple">
-                    works
-                  </span>
+                  <span className="font-medium font-jakarta-sans text-custom-purple lg:mr-1 xl:mr-2">currated</span>
+                  <span className="italic font-medium font-caslon-condensed text-custom-purple">works</span>
                 </Link>
               </div>
               <div>
-                <span className="italic font-caslon-condensed text-custom-purple">
-                  Graphic Design
-                </span>
+                <Link to="/category/graphic-design">
+                  <span className="italic font-caslon-condensed text-custom-purple">Graphic Design</span>
+                </Link>
               </div>
             </div>
           </div>
           <div className="lg:text-2lg xl:text-2xl lg:mt-8 xl:mt-20 lg:mb-2 xl:mb-3"></div>
           <div className="flex lg:mb-6 xl:mb-12">
-
             <div className="w-[58%] flex flex-col justify-between">
               <div className="flex-col">
-                <p className="font-bold font-jakarta-sans text-custom-purple leading-tight lg:text-[2.05em] xl:text-[2.9em]">
-                  10.11.45
-                </p>
+                <p className="font-bold font-jakarta-sans text-custom-purple leading-tight lg:text-[2.05em] xl:text-[2.9em]">10.11.45</p>
               </div>
               <div className="flex-col self-end">
-                <p className="font-extralight font-caslon-condensed text-custom-purple lg:text-[1.2em] xl:text-[1.6em] mb-1">
-                  Celine Nadia Marchiella
-                </p>
+                <p className="font-extralight font-caslon-condensed text-custom-purple lg:text-[1.2em] xl:text-[1.6em] mb-1">Celine Nadia Marchiella</p>
                 <div className="flex">
                   <div className="w-[30%]">
                     <div className="flex">
                       <img src={Email} className="flex justify-between items-start text-center w-[10%] lg:mr-2 xl:mr-3" />
-                      <p className="font-extralight italic font-caslon-condensed text-custom-purple lg:text-[0.8em] xl:text-[0.95em]">
-                        celine.nm888@gmail.com
-                      </p>
+                      <p className="font-extralight italic font-caslon-condensed text-custom-purple lg:text-[0.8em] xl:text-[0.95em]">celine.nm888@gmail.com</p>
                     </div>
                     <div className="flex mt-1">
                       <img src={LinkedIn} className="flex justify-between items-start text-center w-[10%] lg:mr-2 xl:mr-3" />
-                      <p className="italic font-extralight font-caslon-condensed text-custom-purple lg:text-[0.8em] xl:text-[0.95em]">
-                        Celine Nadia
-                      </p>
+                      <p className="italic font-extralight font-caslon-condensed text-custom-purple lg:text-[0.8em] xl:text-[0.95em]">Celine Nadia</p>
                     </div>
                     <div className="flex mt-1">
                       <img src={Behance} className="flex justify-between items-start text-center w-[10%] lg:mr-2 xl:mr-3" />
-                      <p className="italic font-extralight font-caslon-condensed text-custom-purple lg:text-[0.8em] xl:text-[0.95em]">
-                        Celine Nadia Marchiella
-                      </p>
+                      <p className="italic font-extralight font-caslon-condensed text-custom-purple lg:text-[0.8em] xl:text-[0.95em]">Celine Nadia Marchiella</p>
                     </div>
                   </div>
                   <div className="w-[10%]"></div>
                   <div className="w-[70%]">
                     <p className="font-semilight font-jakarta-sans text-custom-purple text-justify lg:text-[0.8em] xl:text-[1em]">
-                      Perancangan buku ilustrasi ini bertujuan sebagai media pengenalan dan pengingat sejarah dan sejarah bangunan bersejarah di Surabaya sehubungan dengan Peristiwa 10 November 1945 yang ditujukan kepada generasi muda berusia 18–23 tahun, khususnya di Surabaya. Tujuan media perancangan adalah mengatasi permasalahan rendahnya minat generasi muda dalam mengenal tempat bersejarah. Metode yang digunakan dalam perancangan ini adalah wawancara kualitatif dan metode deskriptif. Studi pustaka dan diskusi grup menunjukkan bahwa penggunaan media buku ilustrasi interaktif yang informatif dapat menarik minat membaca generasi muda. Untuk itu, desain perancangan ini menggunakan mekanisme pop-up sederhana, teks informasi singkat, jelas, dan padat, beserta aktivitas interaktif, seperti teka-teki dan kuis.
+                      Perancangan buku ilustrasi ini bertujuan sebagai media pengenalan dan pengingat sejarah dan sejarah bangunan bersejarah di Surabaya sehubungan dengan Peristiwa 10 November 1945 yang ditujukan kepada generasi muda berusia 18–23 tahun, khususnya di Surabaya. Tujuan media
+                      perancangan adalah mengatasi permasalahan rendahnya minat generasi muda dalam mengenal tempat bersejarah. Metode yang digunakan dalam perancangan ini adalah wawancara kualitatif dan metode deskriptif. Studi pustaka dan diskusi grup menunjukkan bahwa penggunaan media buku
+                      ilustrasi interaktif yang informatif dapat menarik minat membaca generasi muda. Untuk itu, desain perancangan ini menggunakan mekanisme pop-up sederhana, teks informasi singkat, jelas, dan padat, beserta aktivitas interaktif, seperti teka-teki dan kuis.
                     </p>
                   </div>
                 </div>
@@ -107,9 +94,7 @@ const GD7 = () => {
           </div>
           <div className="flex flex-col relative lg:pb-56 xl:pb-72">
             <p className="self-end font-light underline font-jakarta-sans text-custom-purple text-justify xl:text-[1.5em]">
-              <Link to="/category">
-                more works
-              </Link>
+              <Link to="/category">more works</Link>
             </p>
           </div>
         </div>

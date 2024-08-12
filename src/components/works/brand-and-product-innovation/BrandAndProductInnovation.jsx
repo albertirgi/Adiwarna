@@ -128,7 +128,7 @@ const BrandAndProductInnovation = () => {
               </div>
             </article>
           </div>
-          <div className="flex mt-10 mb-40  ">
+          <div className="flex mt-10 mb-40">
             <article className="flex flex-col w-[33%] relative">
               <div className="flex flex-col grow text-custom-purple hover:cursor-pointer">
                 <Link to="7">

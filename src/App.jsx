@@ -33,6 +33,25 @@ import T8 from "./components/works/thesis/T8"
 import T9 from "./components/works/thesis/T9"
 import T10 from "./components/works/thesis/T10"
 import BP1 from "./components/works/brand-and-product-innovation/BP1"
+import BP2 from "./components/works/brand-and-product-innovation/BP2"
+import BP3 from "./components/works/brand-and-product-innovation/BP3"
+import BP4 from "./components/works/brand-and-product-innovation/BP4"
+import BP5 from "./components/works/brand-and-product-innovation/BP5"
+import BP6 from "./components/works/brand-and-product-innovation/BP6"
+import BP7 from "./components/works/brand-and-product-innovation/BP7"
+import BP8 from "./components/works/brand-and-product-innovation/BP8"
+import DM1 from "./components/works/digital-media/DM1"
+import DM2 from "./components/works/digital-media/DM2"
+import DM3 from "./components/works/digital-media/DM3"
+import DM4 from "./components/works/digital-media/DM4"
+import DM5 from "./components/works/digital-media/DM5"
+import CS1 from "./components/works/campaign-strategy/CS1"
+import CS2 from "./components/works/campaign-strategy/CS2"
+import CS3 from "./components/works/campaign-strategy/CS3"
+import CS4 from "./components/works/campaign-strategy/CS4"
+import CS5 from "./components/works/campaign-strategy/CS5"
+import CS6 from "./components/works/campaign-strategy/CS6"  
+
 
 function App() {
   return (
@@ -72,6 +91,24 @@ function App() {
         <Route path="/category/thesis/9" element={<T9 />} />
         <Route path="/category/thesis/10" element={<T10 />} />
         <Route path="/category/brand-and-product-innovation/1" element={<BP1 />} />
+        <Route path="/category/brand-and-product-innovation/2" element={<BP2 />} />
+        <Route path="/category/brand-and-product-innovation/3" element={<BP3 />} />
+        <Route path="/category/brand-and-product-innovation/4" element={<BP4 />} />
+        <Route path="/category/brand-and-product-innovation/5" element={<BP5 />} />
+        <Route path="/category/brand-and-product-innovation/6" element={<BP6 />} />
+        <Route path="/category/brand-and-product-innovation/7" element={<BP7 />} />
+        <Route path="/category/brand-and-product-innovation/8" element={<BP8 />} />
+        <Route path="/category/digital-media/1" element={<DM1 />} />
+        <Route path="/category/digital-media/2" element={<DM2 />} />
+        <Route path="/category/digital-media/3" element={<DM3 />} />
+        <Route path="/category/digital-media/4" element={<DM4 />} />
+        <Route path="/category/digital-media/5" element={<DM5 />} />
+        <Route path="/category/campaign-strategy/1" element={<CS1 />} />
+        <Route path="/category/campaign-strategy/2" element={<CS2 />} />
+        <Route path="/category/campaign-strategy/3" element={<CS3 />} />
+        <Route path="/category/campaign-strategy/4" element={<CS4 />} />
+        <Route path="/category/campaign-strategy/5" element={<CS5 />} />
+        <Route path="/category/campaign-strategy/6" element={<CS6 />} />
       </Routes>
     </>
   )

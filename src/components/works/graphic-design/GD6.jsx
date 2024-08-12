@@ -22,18 +22,14 @@ const GD6 = () => {
             <div className="flex flex-1 items-center justify-between">
               <div>
                 <Link to="/category">
-                  <span className="font-medium font-jakarta-sans text-custom-purple lg:mr-1 xl:mr-2">
-                    currated
-                  </span>
-                  <span className="italic font-medium font-caslon-condensed text-custom-purple">
-                    works
-                  </span>
+                  <span className="font-medium font-jakarta-sans text-custom-purple lg:mr-1 xl:mr-2">currated</span>
+                  <span className="italic font-medium font-caslon-condensed text-custom-purple">works</span>
                 </Link>
               </div>
               <div>
-                <span className="italic font-caslon-condensed text-custom-purple">
-                  Graphic Design
-                </span>
+                <Link to="/category/graphic-design">
+                  <span className="italic font-caslon-condensed text-custom-purple">Graphic Design</span>
+                </Link>
               </div>
             </div>
           </div>
@@ -41,39 +37,31 @@ const GD6 = () => {
           <div className="flex">
             <div className="w-[58%] flex flex-col justify-between">
               <div className="flex-col mb-5">
-                <p className="font-bold font-jakarta-sans text-custom-purple leading-tight lg:text-[2.05em] xl:text-[2.9em]">
-                  Jeanny’s Bakehuis
-                </p>
+                <p className="font-bold font-jakarta-sans text-custom-purple leading-tight lg:text-[2.05em] xl:text-[2.9em]">Jeanny’s Bakehuis</p>
               </div>
               <div className="flex-col self-end">
-                <p className="font-extralight font-caslon-condensed text-custom-purple lg:text-[1.2em] xl:text-[1.6em] mb-2">
-                  Stefanna Shiva
-                </p>
+                <p className="font-extralight font-caslon-condensed text-custom-purple lg:text-[1.2em] xl:text-[1.6em] mb-2">Stefanna Shiva</p>
                 <div className="flex">
                   <div className="w-[25%]">
                     <div className="flex mb-2">
                       <img src={Email} className="flex justify-between items-start text-center w-[10%] lg:mr-2 xl:mr-3" />
-                      <p className="font-extralight italic font-caslon-condensed text-custom-purple lg:text-[0.8em] xl:text-[0.95em]">
-                        stefannashiva@gmail.com
-                      </p>
+                      <p className="font-extralight italic font-caslon-condensed text-custom-purple lg:text-[0.8em] xl:text-[0.95em]">stefannashiva@gmail.com</p>
                     </div>
                     <div className="flex mb-2">
                       <img src={LinkedIn} className="flex justify-between items-start text-center w-[10%] lg:mr-2 xl:mr-3" />
-                      <p className="font-extralight italic font-caslon-condensed text-custom-purple lg:text-[0.8em] xl:text-[0.95em]">
-                        Stefanna Shiva
-                      </p>
+                      <p className="font-extralight italic font-caslon-condensed text-custom-purple lg:text-[0.8em] xl:text-[0.95em]">Stefanna Shiva</p>
                     </div>
                     <div className="flex">
                       <img src={Behance} className="flex justify-between items-start text-center w-[10%] lg:mr-2 xl:mr-3" />
-                      <p className="font-extralight italic font-caslon-condensed text-custom-purple lg:text-[0.8em] xl:text-[0.95em]">
-                        Stefanna Shiva
-                      </p>
+                      <p className="font-extralight italic font-caslon-condensed text-custom-purple lg:text-[0.8em] xl:text-[0.95em]">Stefanna Shiva</p>
                     </div>
                   </div>
                   <div className="w-[10%]"></div>
                   <div className="w-[70%]">
                     <p className="font-semilight font-jakarta-sans text-custom-purple text-justify lg:text-[0.8em] xl:text-[1em] mb-3">
-                      Roti kuno menjadi camilan yang dicari oleh ibu karena dinilai menjadi pilihan camilan yang lebih sehat. Namun, perkembangan teknologi dan informasi membuat roti jadul mulai sulit ditemui dan muncul beragam bakery modern. Jeanny’s Bakehuis menjadi salah satu bakery yang menyediakan roti kuno berkualitas, aman, dan tidak menggunakan bahan kimia tambahan. Perancangan ini menggunakan metode penelitian kualitatif. Arah brand Jeanny’s Bakehuis adalah menjadi bakery yang meringankan beban ibu dengan pendekatan sebagai best vriend dalam penyampaian pesan komunikasinya. Dengan strategi yang sudah dilakukan, terdapat penambahan jumlah penjualan serta pembeli baru. Sosial media Jeannny’s Bakehuis juga mengalami peningkatan reach, followers, dan engagement. Pameran membawa exposure baru brand ke pasar yang lebih luas.
+                      Roti kuno menjadi camilan yang dicari oleh ibu karena dinilai menjadi pilihan camilan yang lebih sehat. Namun, perkembangan teknologi dan informasi membuat roti jadul mulai sulit ditemui dan muncul beragam bakery modern. Jeanny’s Bakehuis menjadi salah satu bakery yang
+                      menyediakan roti kuno berkualitas, aman, dan tidak menggunakan bahan kimia tambahan. Perancangan ini menggunakan metode penelitian kualitatif. Arah brand Jeanny’s Bakehuis adalah menjadi bakery yang meringankan beban ibu dengan pendekatan sebagai best vriend dalam penyampaian
+                      pesan komunikasinya. Dengan strategi yang sudah dilakukan, terdapat penambahan jumlah penjualan serta pembeli baru. Sosial media Jeannny’s Bakehuis juga mengalami peningkatan reach, followers, dan engagement. Pameran membawa exposure baru brand ke pasar yang lebih luas.
                     </p>
                   </div>
                 </div>
@@ -109,9 +97,7 @@ const GD6 = () => {
           </div>
           <div className="flex flex-col relative lg:pb-56 xl:pb-72">
             <p className="self-end font-light underline font-jakarta-sans text-custom-purple text-justify xl:text-[1.5em]">
-              <Link to="/category">
-                more works
-              </Link>
+              <Link to="/category">more works</Link>
             </p>
           </div>
         </div>
