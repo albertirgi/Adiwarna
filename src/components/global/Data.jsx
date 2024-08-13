@@ -76,7 +76,7 @@ export const events = [
   },
   {
     id: 6,
-    title: "Jurnalistic Photography Competition",
+    title: "Journalistic Photography Competition",
     sub: "",
     display: "",
     desc: "Lewat lensa kamera, abadikan dan ceritakan perjalananmu bersama Adiwarna.",

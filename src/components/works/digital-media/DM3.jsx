@@ -9,7 +9,7 @@ import Picture4 from "../../../assets/images/works/digitalMedia/DM3/4.webp";
 import Picture5 from "../../../assets/images/works/digitalMedia/DM3/5.webp";
 import Play from "../../../assets/images/playButton.svg";
 import LinkedIn from "../../../assets/images/linkedin.svg";
-import Behance from "../../../assets/images/behance.svg";
+import Framer from "../../../assets/images/framer.svg";
 import Email from "../../../assets/images/email.svg";
 
 const DM3 = () => {
@@ -52,7 +52,7 @@ const DM3 = () => {
                       <p className="font-extralight italic font-caslon-condensed text-custom-purple lg:text-[0.8em] xl:text-[0.95em]">Sharen Angelina</p>
                     </div>
                     <div className="flex">
-                      <img src={Behance} className="flex justify-between items-start text-center w-[10%] lg:mr-2 xl:mr-3" />
+                      <img src={Framer} className="flex justify-between items-start text-center w-[10%] lg:mr-2 xl:mr-3" />
                       <p className="font-extralight italic font-caslon-condensed text-custom-purple lg:text-[0.8em] xl:text-[0.95em]">sharenangelina.com</p>
                     </div>
                   </div>

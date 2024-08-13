@@ -28,7 +28,7 @@ const EventItem = ({ id, img, name, desc, date }) => {
       </div>
       <div className="h-full">
       <div className="h-2/5">
-        <h1 className="text-custom-white font-jakarta-sans font-bold lg:text-[22px] xl:text-[32px] py-4 leading-tight">{name}</h1>
+        <h1 className="text-custom-white font-jakarta-sans font-bold lg:text-[22px] xl:text-[28px] py-4 leading-tight">{name}</h1>
       </div>
       <div className="h-2/5">
         <p className="text-custom-white text-justify font-jakarta-sans font-light lg:text-[16px] xl:text-[20px] ">{desc}</p>
