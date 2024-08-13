@@ -25,53 +25,59 @@ const Section4 = () => {
           <div className="flex">
             <article className="flex flex-col items-center w-[33%] relative">
               <div className="flex flex-col grow text-custom-purple hover:cursor-pointer">
-                <img src={works12} className="absolute w-full opacity-0 transition-opacity duration-300 hover:opacity-100" />
-                <img src={works11} className="w-full" />
-                <h2 className="font-jakarta-sans font-semibold text-justify leading-tight lg:mt-2 lg:text-2lg xl:mt-3 xl:text-2xl">
-                  Analisis Strategi Brand Activation Cat Dulux pada House of Sweet Embrace Exhibition.
-                </h2>
-                <p className="font-caslon-condensed font-light italic lg:text-1lg lg:mt-1 xl:text-1xl xl:mt-2">
-                  Gabriella Kova Lucetta
-                </p>
+                <Link to="/category/thesis/4">
+                  <img src={works12} className="absolute w-full opacity-0 transition-opacity duration-300 hover:opacity-100" />
+                  <img src={works11} className="w-full" />
+                  <h2 className="font-jakarta-sans font-semibold text-justify leading-tight lg:mt-2 lg:text-2lg xl:mt-3 xl:text-2xl">
+                    Analisis Strategi Brand Activation Cat Dulux pada House of Sweet Embrace Exhibition.
+                  </h2>
+                  <p className="font-caslon-condensed font-light italic lg:text-1lg lg:mt-1 xl:text-1xl xl:mt-2">
+                    Gabriella Kova Lucetta
+                  </p>
+                </Link>
               </div>
             </article>
             <article className="flex flex-col w-[33%] lg:mx-8 xl:mx-10 relative">
               <div className="flex flex-col grow text-custom-purple hover:cursor-pointer">
-                <img src={works22} className="absolute w-full opacity-0 transition-opacity duration-300 hover:opacity-100" />
-                <img src={works21} className="w-full" />
-                <h2 className="font-jakarta-sans font-semibold text-justify leading-tight lg:mt-2 lg:text-2lg xl:mt-3 xl:text-2xl">
-                  Petallete
-                </h2>
-                <p className="font-caslon-condensed font-light italic lg:text-1lg lg:mt-1 xl:text-1xl xl:mt-2">
-                  Vanessa Tan
-                </p>
+                <Link to="/category/brand-and-product-innovation/6">
+                  <img src={works22} className="absolute w-full opacity-0 transition-opacity duration-300 hover:opacity-100" />
+                  <img src={works21} className="w-full" />
+                  <h2 className="font-jakarta-sans font-semibold text-justify leading-tight lg:mt-2 lg:text-2lg xl:mt-3 xl:text-2xl">
+                    Petallete
+                  </h2>
+                  <p className="font-caslon-condensed font-light italic lg:text-1lg lg:mt-1 xl:text-1xl xl:mt-2">
+                    Vanessa Tan
+                  </p>
+                </Link>
               </div>
             </article>
             <article className="flex flex-col w-[33%] relative">
               <div className="flex flex-col grow text-custom-purple hover:cursor-pointer">
-                <img src={works32} className="absolute w-full opacity-0 transition-opacity duration-300 hover:opacity-100" />
-                <img src={works31} className="w-full" />
-                <h2 className="font-jakarta-sans font-semibold text-justify leading-tight lg:mt-2 lg:text-2lg xl:mt-3 xl:text-2xl">
-                  At The End of Time
-                </h2>
-                <p className="font-caslon-condensed font-light italic lg:text-1lg lg:mt-1 xl:text-1xl xl:mt-2">
-                  Becak Productions
-                </p>
+                <Link to="/category/digital-media/4">
+                  <img src={works32} className="absolute w-full opacity-0 transition-opacity duration-300 hover:opacity-100" />
+                  <img src={works31} className="w-full" />
+                  <h2 className="font-jakarta-sans font-semibold text-justify leading-tight lg:mt-2 lg:text-2lg xl:mt-3 xl:text-2xl">
+                    At The End of Time
+                  </h2>
+                  <p className="font-caslon-condensed font-light italic lg:text-1lg lg:mt-1 xl:text-1xl xl:mt-2">
+                    Becak Productions
+                  </p>
+                </Link>
               </div>
             </article>
           </div>
         </div>
         <div className="flex justify-center">
-  <Link to="/category">
-    <div
-      className="font-jakarta-sans text-custom-white justify-center item-center self-center italic font-bold text-center bg-custom-purple rounded-[72px] hover:bg-custom-yellow hover:text-custom-purple cursor-pointer transition-colors duration-500 hover:scale-110 hover:shadow-lg hover:cursor-pointer transition-transform duration-500 ease-in-out lg:px-7 lg:py-2 lg:mt-7 lg:text-2lg lg:mb-10 xl:px-9 xl:py-3 xl:mt-7 xl:text-2xl xl:mb-14 inline-block"
-      tabIndex="0"
-      role="button"
-    >
-      more works
-    </div>
-  </Link>
-</div>
+          <Link to="/category">
+            <div
+              className="font-jakarta-sans text-custom-white justify-center item-center self-center italic font-bold text-center bg-custom-purple rounded-[72px] hover:bg-custom-yellow hover:text-custom-purple cursor-pointer transition-colors duration-500 hover:scale-110 hover:shadow-lg hover:cursor-pointer transition-transform duration-500 ease-in-out lg:px-7 lg:py-2 lg:mt-7 lg:text-2lg lg:mb-10 xl:px-9 xl:py-3 xl:mt-7 xl:text-2xl xl:mb-14 inline-block"
+              tabIndex="0"
+              role="button"
+            >
+              more works
+            </div>
+          </Link>
+        </div>
 
       </div>
     </div>
