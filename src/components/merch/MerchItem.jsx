@@ -13,9 +13,14 @@ const MerchItem = ({id}) => {
     const merhcImage = merchImageRef.current;
 
     if (merhcImage) {
-        merhcImage.addEventListener("click", () => {
-        const link = merhcImage.querySelector(".link");
-        link.click();
+      merhcImage.addEventListener("click", (e) => {
+        if (id === 3 || id === 8) {
+          // Prevent the default action for merch5
+          e.preventDefault();
+        } else {
+          const link = merhcImage.querySelector(".link");
+          link.click();
+        }
       });
     }
   }, []);
