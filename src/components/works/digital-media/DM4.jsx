@@ -7,6 +7,8 @@ import Play from "../../../assets/images/playButton.svg";
 import LinkedIn from "../../../assets/images/linkedin.svg";
 import Behance from "../../../assets/images/behance.svg";
 import Email from "../../../assets/images/email.svg";
+import IPDM from "../../../assets/images/logo-ipdm.svg";
+
 
 const DM4 = () => {
   return (
@@ -35,7 +37,7 @@ const DM4 = () => {
               <div className="flex-col">
                 <div className="flex justify-between">
                   <p className="font-bold font-jakarta-sans text-custom-purple leading-tight lg:text-[2.05em] xl:text-[2.9em]">At The End of Time </p>
-                  <img src={IPDM} className="w-[10%] lg:mr-2 xl:mr-3" />
+                  <img src={IPDM} clssName="w-[10%] lg:mr-2 xl:mr-3" />
                 </div>
                 <a href="https://drive.google.com/drive/folders/1Wq-OvrZeGwOLUDizXqL9_QGjIrkvUcN1" target="_blank" rel="noreferrer">
                   <div className="flex mt-2">
