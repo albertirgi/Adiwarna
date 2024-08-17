@@ -14,7 +14,7 @@ const MerchItem = ({id}) => {
 
     if (merhcImage) {
       merhcImage.addEventListener("click", (e) => {
-        if (id === 3 || id === 8) {
+        if (id === 3) {
           // Prevent the default action for merch5
           e.preventDefault();
         } else {

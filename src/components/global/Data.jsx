@@ -98,7 +98,7 @@ export const merchs = [
   { id: 7, name: "Enamel Pin", desc: "Mau tampil beda tapi tetap kece? Pin ini jawabannya! Desainnya yang kece tapi penuh makna bikin kamu terlihat stylish sambil eksplor perjalanan kamu.", price: "32.000", img: enamelPin, cover: enamelPin[5].default, uom: "pcs", dimension: "3.5 cm" },
   {
     id: 8,
-    name: "Currated Booklet",
+    name: "Catalogue Book",
     desc: "Zine spesial dengan beragam karya kreatif dari para alumni DKV UK Petra. Dijamin, imajinasimu bakal terbang tinggi dan bisa banget dijadiin bank referensi.",
     price: "100.000",
     img: curratedBook,
