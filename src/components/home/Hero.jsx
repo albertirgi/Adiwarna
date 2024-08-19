@@ -12,6 +12,7 @@ const Hero = () => {
         src={LoadingVideo}
         autoPlay
         muted
+        playsInline
       ></video>
 
       {/* -- MAIN VIDEO -- */}
@@ -24,6 +25,7 @@ const Hero = () => {
           autoPlay
           muted
           loop
+          playsInline
         ></video>
         <img
           id="kelanaMotion"

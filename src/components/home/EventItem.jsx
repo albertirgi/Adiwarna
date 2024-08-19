@@ -26,18 +26,17 @@ const EventItem = ({ id, img, name, desc, date }) => {
           </Link>
         </div>
       </div>
-      <div className="h-full">
-      <div className="h-2/5">
-        <h1 className="text-custom-white font-jakarta-sans font-bold lg:text-[22px] xl:text-[28px] py-4 leading-tight">{name}</h1>
+      <div className="h-full flex flex-col gap-y-2 lg:gap-y-0 pt-2 lg:pt-0">
+        <div className="basis-3/6 lg:basis-0 lg:h-2/5">
+          <h1 className="text-custom-white font-jakarta-sans font-bold text-[8px] lg:text-[22px] xl:text-[28px] lg:py-4 leading-tight">{name}</h1>
+        </div>
+        <div className="basis-3/6 lg:basis-0 lg:h-2/5">
+          <p className="text-custom-white text-justify font-jakarta-sans font-light text-[6px] lg:text-[16px] xl:text-[20px] leading-tight lg:leading-normal">{desc}</p>
+        </div>
+        <div className="basis-1/6 lg:basis-0 lg:h-2/5">
+          <p className="text-custom-white font-jakarta-sans font-light text-[6px] lg:text-[16px] xl:text-[24px] lg:pt-4">Date: {date}</p>
+        </div>
       </div>
-      <div className="h-2/5">
-        <p className="text-custom-white text-justify font-jakarta-sans font-light lg:text-[16px] xl:text-[20px] ">{desc}</p>
-      </div>
-      <div className="h-2/5">
-        <p className="text-custom-white font-jakarta-sans font-light lg:text-[16px] xl:text-[24px] pt-4">Date: {date}</p>
-      </div>
-      </div>
-      
     </div>
   );
 };
