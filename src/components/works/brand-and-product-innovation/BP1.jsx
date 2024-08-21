@@ -7,6 +7,11 @@ import Picture2 from "../../../assets/images/works/brandProduct/BP1/2.webp";
 import Picture3 from "../../../assets/images/works/brandProduct/BP1/3.webp";
 import Picture4 from "../../../assets/images/works/brandProduct/BP1/4.webp";
 import Picture5 from "../../../assets/images/works/brandProduct/BP1/5.webp";
+import Mobile1 from "../../../assets/images/works/brandProduct/BP1/mobile/1.webp";
+import Mobile2 from "../../../assets/images/works/brandProduct/BP1/mobile/2.webp";
+import Mobile3 from "../../../assets/images/works/brandProduct/BP1/mobile/3.webp";
+import Mobile4 from "../../../assets/images/works/brandProduct/BP1/mobile/4.webp";
+import Mobile5 from "../../../assets/images/works/brandProduct/BP1/mobile/5.webp";
 import Play from "../../../assets/images/playButton.svg";
 import LinkedIn from "../../../assets/images/linkedin.svg";
 import Email from "../../../assets/images/email.svg";
@@ -103,7 +108,7 @@ const BP1 = () => {
           </div>
 
           {/* Mobile View */}
-          <div className="flex flex-col">
+          <div className="flex flex-col lg:hidden">
             <div className="flex mt-8">
               <div className="w-full h-full flex flex-col">
                 <p className="font-bold font-jakarta-sans text-custom-purple leading-tight text-[12px] mt-2 mb-10">Mayatra</p>
@@ -139,12 +144,21 @@ const BP1 = () => {
                 terlihat menarik dan relevan di kehidupan modern gen z. Diharapkan, mengenakan produk Mayatra dapat menjadi bentuk apresiasi dan kebanggaan terhadap budaya daerah yang melekat dalam kehidupan sehari-hari anak muda.
               </p>
 
-              <div className="flex flex-col mt-2">
-                <div className="flex">
-                  {/* <img src={Picture1} className="flex justify-between items-start text-center w-[40%]" />
-                  <img src={Picture2} className="flex justify-between items-start text-center w-[60%]" /> */}
+              <div className="flex flex-col gap-2 mt-2">
+                <div className="flex gap-2">
+                  <img src={Mobile1} className="flex justify-between items-start text-center w-[40%]" />
+                  <img src={Mobile2} className="flex justify-between items-start text-center w-[58%]" />
                 </div>
-                <div></div>
+                <div className="flex gap-2">
+                  <img src={Mobile3} className="flex justify-between items-start text-center w-[35%] h-fit" />
+                  <img src={Mobile4} className="flex justify-between items-start text-center w-[36%] h-fit" />
+                  <img src={Mobile5} className="flex justify-between items-start text-center w-[24%] h-fit" />
+                </div>
+              </div>
+              <div className="w-full flex items-end justify-end mt-12 mb-4">
+                <p className="self-end font-light underline font-jakarta-sans text-custom-purple text-justify text-[8px]">
+                  <Link to="/category">more works</Link>
+                </p>
               </div>
             </div>
           </div>
