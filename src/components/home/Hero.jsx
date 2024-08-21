@@ -27,12 +27,14 @@ const Hero = () => {
           loop
           playsInline
         ></video>
-        <img
-          id="kelanaMotion"
-          className="absolute top-1/2 left-1/2 transform -translate-x-1/2 -translate-y-1/2  h-screen"
-          src={KelanaMotion}
-          alt="gif"
-        />
+        <div className="absolute top-0 left-0 w-full h-full flex justify-center items-center">
+          <img
+            id="kelanaMotion"
+            src={KelanaMotion}
+            alt="gif"
+          />
+        </div>
+
       </section>
     </div>
   );
