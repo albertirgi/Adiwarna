@@ -7,6 +7,11 @@ import Picture2 from "../../../assets/images/works/campaignStrategy/CS1/2.webp";
 import Picture3 from "../../../assets/images/works/campaignStrategy/CS1/3.webp";
 import Picture4 from "../../../assets/images/works/campaignStrategy/CS1/4.webp";
 import Picture5 from "../../../assets/images/works/campaignStrategy/CS1/5.webp";
+import Mobile1 from "../../../assets/images/works/campaignStrategy/CS1/mobile/1.webp";
+import Mobile2 from "../../../assets/images/works/campaignStrategy/CS1/mobile/2.webp";
+import Mobile3 from "../../../assets/images/works/campaignStrategy/CS1/mobile/3.webp";
+import Mobile4 from "../../../assets/images/works/campaignStrategy/CS1/mobile/4.webp";
+import Mobile5 from "../../../assets/images/works/campaignStrategy/CS1/mobile/5.webp";
 import Play from "../../../assets/images/playButton.svg";
 import LinkedIn from "../../../assets/images/linkedin.svg";
 import Behance from "../../../assets/images/behance.svg";
@@ -14,24 +19,26 @@ import Email from "../../../assets/images/email.svg";
 const CS1 = () => {
   return (
     <div>
-      <FixNavbar />
-      <div className="bg-category bg-no-repeat bg-cover h-fit lg:px-14 xl:px-20">
-        <div className="flex relative flex-col w-full mx-auto lg:max-w-[1024px] xl:max-w-[1440px]">
-          <div className="lg:text-2lg lg:mt-24 xl:text-2xl xl:mt-28">
-            <div className="flex flex-1 items-center justify-between">
-              <div>
-                <Link to="/category">
-                  <span className="font-medium font-jakarta-sans text-custom-purple lg:mr-1 xl:mr-2">currated</span>
-                  <span className="italic font-medium font-caslon-condensed text-custom-purple">works</span>
-                </Link>
-              </div>
-              <div>
-                <Link to="/category/campaign-strategy">
-                  <span className="italic font-caslon-condensed text-custom-purple">Campaign Strategy</span>
-                </Link>
-              </div>
+    <FixNavbar />
+    <div className="bg-category bg-no-repeat bg-cover h-fit px-3 lg:px-14 xl:px-20">
+      <div className="flex relative flex-col w-full mx-auto lg:max-w-[1024px] xl:max-w-[1440px]">
+        <div className="text-[8px] lg:text-2lg lg:mt-24 xl:text-2xl xl:mt-28 mt-16 lg:mt-0">
+          <div className="flex flex-1 items-center justify-between">
+            <div>
+              <Link to="/category">
+                <span className="font-medium font-jakarta-sans text-custom-purple mr-0.5 lg:mr-1 xl:mr-2">currated</span>
+                <span className="italic font-medium font-caslon-condensed text-custom-purple">works</span>
+              </Link>
+            </div>
+            <div>
+              <Link to="/category/campaign-strategy">
+                <span className="italic font-caslon-condensed text-custom-purple">Campaign Strategy</span>
+              </Link>
             </div>
           </div>
+        </div>
+        {/* Desktop View */}
+        <div className="hidden lg:block">
           <div className="lg:text-2lg xl:text-2xl lg:mt-8 xl:mt-20 lg:mb-2 xl:mb-3"></div>
           <div className="flex">
             <div className="w-[58%] flex flex-col justify-between">
@@ -91,9 +98,60 @@ const CS1 = () => {
             </p>
           </div>
         </div>
+
+        {/* Mobile View */}
+        <div className="flex flex-col lg:hidden">
+          <div className="flex mt-8">
+            <div className="w-full h-full flex flex-col">
+              <p className="font-bold font-jakarta-sans text-custom-purple leading-tight text-[12px] mt-2 mb-10">Kalkulaku</p>
+              <div className="flex flex-col">
+                <p className="font-extralight font-caslon-condensed text-custom-purple text-[8px] mb-1">Monica Yvetta Utomo</p>
+                <div className="flex">
+                  <img src={Email} className="flex justify-between items-start text-center w-[3%] mr-1" />
+                  <p className="font-extralight italic font-caslon-condensed text-custom-purple text-[7px]">monicautomo3@gmail.com</p>
+                </div>
+                <div className="flex">
+                  <img src={LinkedIn} className="flex justify-between items-start text-center w-[3%] mr-1" />
+                  <p className="italic font-extralight font-caslon-condensed text-custom-purple text-[7px]">Monica Utomo</p>
+                </div>
+                <div className="flex">
+                  <img src={Behance} className="flex justify-between items-start text-center w-[3%] mr-1" />
+                  <p className="italic font-extralight font-caslon-condensed text-custom-purple text-[7px]">Monica Utomo</p>
+                </div>
+              </div>
+            </div>
+            <img src={Profile} className="flex justify-between items-start text-center w-[35%]" alt="Picture1" />
+          </div>
+          <div className="flex flex-col pl-10 mt-2">
+            <p className="font-semilight font-jakarta-sans text-custom-purple text-justify text-[8px]">
+              Kalkulaku merupakan usaha startup penyedia fitur untuk seller yang hendak menentukan harga jual ke Marketplace terkait biaya administrasi melalui website. Startup ini berpotensi menjadi solusi baru, namun sayangnya masih belum banyak yang seller yang menyadari ancaman dari
+              permasalahan tersebut. Strategi promosi untuk Kalkulaku dinilai penting, selain agar Kalkulaku dapat dikenal oleh para seller sebagai targeted audience, juga dapat meningkatkan kesadaran para seller terhadap permasalahan tersebut. Perancangan ini didukung oleh hasil wawancara dengan
+              beberapa narasumber sebagai sampel dari target audiens terkait perilaku dari target audiens dalam menggunakan media digital. Adapun strategi media sosial yang dihasilkan diharapkan dapat meningkatkan jumlah kesadaran dan pemahaman seller dalam berjualan online serta perbaikan harga
+              jual yang membangun seller dan calon seller untuk merambah ke marketplace Shopee. Proses perancangan meliputi branding dari Kalkulaku, proses perancangan website, strategi promosi offline dan online.
+            </p>
+
+            <div className="flex flex-col gap-2 mt-2">
+              <div className="flex gap-2">
+                <img src={Mobile1} className="flex justify-between items-start text-center w-[49%] h-fit" />
+                <img src={Mobile2} className="flex justify-between self-end text-center w-[49%] h-fit" />
+              </div>
+              <div className="flex gap-2">
+                <img src={Mobile3} className="flex justify-between items-start text-center w-[42%] h-fit" />
+                <img src={Mobile4} className="flex justify-between self-end text-center w-[56%] h-fit" />
+              </div>
+              <img src={Mobile5} className="flex justify-between items-start text-center w-[70%] h-fit" />
+              <div className="w-full flex items-end justify-end mb-4">
+                <p className="self-end font-light underline font-jakarta-sans text-custom-purple text-justify text-[8px]">
+                  <Link to="/category">more works</Link>
+                </p>
+              </div>
+            </div>
+          </div>
+        </div>
       </div>
-      <Footer />
     </div>
+    <Footer />
+  </div>
   );
 };
 

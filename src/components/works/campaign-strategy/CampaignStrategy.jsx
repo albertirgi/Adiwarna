@@ -63,6 +63,7 @@ const CampaignStrategy = () => {
               </div>
             </article>
           </div>
+          
 
           <div className="flex mt-10 mb-40">
             <article className="flex flex-col w-[33%] relative">
@@ -85,7 +86,7 @@ const CampaignStrategy = () => {
                 </Link>
               </div>
             </article>
-            <article className="flex flex-col w-[33%] mx-4 lg:mx-8 xl:mx-10 relative">
+            <article className="flex flex-col w-[33%] relative">
               <div className="flex flex-col grow text-custom-purple hover:cursor-pointer">
                 <Link to="6">
                   <img src={CS62} className="absolute w-full opacity-0 transition-opacity duration-300 hover:opacity-100" />
