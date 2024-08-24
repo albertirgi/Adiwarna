@@ -3,7 +3,7 @@ import { useEffect, useRef } from "react";
 import { Link } from "react-router-dom";
 import { merchs } from "../global/Data";
 
-const MerchItem = ({id}) => {
+const MerchItem = ({ id }) => {
   const href = `/merch/${id}`;
   const merch = merchs.find((merch) => merch.id == id);
   const merchImageRef = useRef(null);
@@ -14,13 +14,8 @@ const MerchItem = ({id}) => {
 
     if (merhcImage) {
       merhcImage.addEventListener("click", (e) => {
-        if (id === 3) {
-          // Prevent the default action for merch5
-          e.preventDefault();
-        } else {
-          const link = merhcImage.querySelector(".link");
-          link.click();
-        }
+        const link = merhcImage.querySelector(".link");
+        link.click();
       });
     }
   }, []);
