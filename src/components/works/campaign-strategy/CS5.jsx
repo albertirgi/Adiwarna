@@ -154,7 +154,7 @@ const CS5 = () => {
                   <img src={Mobile4} className="flex justify-between items-start text-center w-[29%] h-fit" />
                   <img src={Mobile5} className="flex justify-between items-start text-center w-[68%] h-fit" />
                 </div>
-                <div className="w-full flex items-end justify-end mt-4 mb-4">
+                <div className="w-full flex items-end justify-end mt-8 mb-4">
                   <p className="self-end font-light underline font-jakarta-sans text-custom-purple text-justify text-[8px]">
                     <Link to="/category">more works</Link>
                   </p>
