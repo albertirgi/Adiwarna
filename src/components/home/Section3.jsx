@@ -5,7 +5,7 @@ const Section3 = () => {
   return (
     <div className="bg-3 bg-custom-yellow w-full h-[60vh] lg:h-fit bg-no-repeat bg-cover flex justify-center ">
       <div className="flex relative flex-col my-auto lg:my-0 mx-auto lg:max-w-[760px] xl:max-w-[1070px]">
-        <a href="https://adiwarna-kelana-trisixfy.netlify.app">
+        <a href="https://www.adiwarna-kelana.blacbox.net">
         <div className="z-10 hover:scale-110 hover:cursor-pointer transition-transform duration-300 ease-in-out flex items-center justify-center lg:py-12 xl:py-16">
           <img src={Earth} className=" w-[75%] lg:w-custom-earth animate-spin" />
           <div className="absolute flex flex-col items-center justify-center">
